@@ -11,12 +11,12 @@ const Education = () => {
                 <p>February 2023 - October 2023</p>
                 <p>
                     Graduated with proficiency in front-end and back-end development,
-                    including technologies such as HTML, CSS, JavaScript, Python, and
+                    including technologies such as HTML, CSS, JavaScript, and
                     database management.
                 </p>
                 <h2>GCA (General Coding Assessment)</h2>
                 <p>Score: 706</p>
-                
+
             </div>
             <div>
                 <h2>Skills</h2>
