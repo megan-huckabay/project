@@ -2,7 +2,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import Skills from './Components/PastExperiance';
+import Skills from './Components/PastExperience';
 
 test('renders Skills component', () => {
   render(

@@ -4,8 +4,8 @@ import './App.css';
 import Home from './Components/Home';
 import About from './Components/About';   
 import Education from './Components/Education'; 
-import Navigation from './Components/Navigation';
-import Skills from './Components/PastExperiance';  
+import Navigation from './Components/Navigation';  
+import PastExperience from './Components/PastExperience';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Education" element={<Education />} />
-          <Route path="/Skills" element={<Skills />} />
+          <Route path="/PastExperience" element={<PastExperience />} />
         </Routes>
       </div>
     </Router>
