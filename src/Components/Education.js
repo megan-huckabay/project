@@ -16,10 +16,7 @@ const Education = () => {
                 </p>
                 <h2>GCA (General Coding Assessment)</h2>
                 <p>Score: 706</p>
-                <p>
-                    Successfully achieved on the second attempt, demonstrating
-                    adaptability and persistence in overcoming challenges.
-                </p>
+                
             </div>
             <div>
                 <h2>Skills</h2>
