@@ -1,8 +1,8 @@
 // src/Navigation.test.js
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { MemoryRouter } from 'react-router-dom';
 import Navigation from './Components/Navigation';
+import { MemoryRouter } from 'react-router-dom';
 
 test('renders Navigation component with links', () => {
   render(
@@ -14,12 +14,10 @@ test('renders Navigation component with links', () => {
   const homeLinkElement = screen.getByText(/Home/i);
   const aboutLinkElement = screen.getByText(/About/i);
   const educationLinkElement = screen.getByText(/Education/i);
-  const skillsLinkElement = screen.getByText(/Skills/i);
-  const contactLinkElement = screen.getByText(/Contact/i);
+  const experienceLinkElement = screen.getByText(/Experience/i);
 
   expect(homeLinkElement).toBeInTheDocument();
   expect(aboutLinkElement).toBeInTheDocument();
   expect(educationLinkElement).toBeInTheDocument();
-  expect(skillsLinkElement).toBeInTheDocument();
-  expect(contactLinkElement).toBeInTheDocument();
+  expect(experienceLinkElement).toBeInTheDocument();
 });

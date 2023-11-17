@@ -26,7 +26,9 @@ const About = () => {
         Heroku and TypeScript. My experiences have taught me the value of effective communication, attention to detail,
         and the importance of fostering a positive and collaborative work environment.
       </p>
+
       <h1>Things I Enjoy in My Spare Time!</h1>
+
       <h2>The Art of Pour Painting:</h2>
       <p>
         Pour painting has become a central passion in my life. This mesmerizing art form involves the harmonious blend of
@@ -35,6 +37,7 @@ const About = () => {
         each resulting in its own unique masterpiece. It's a messy affair, but the joy and fulfillment it brings are
         absolutely worth every splash of color!
       </p>
+      
       <h2>Extending a Helping Hand:</h2>
       <p>
         One of my greatest joys is reaching out to those in need. I believe in the power of a simple act of kindness. It
@@ -44,12 +47,14 @@ const About = () => {
         could use a warm meal. It's not just about providing sustenance, but also about connecting with fellow human beings
         in a compassionate and dignified way.
       </p>
+
       <h2>Embracing Nature's Beauty:</h2>
       <p>
         Nature, in all its magnificent forms, holds a special place in my heart. Whether it's a scorching day or the
         heavens open up in a downpour, I find solace and boundless inspiration in its ever-changing beauty. From vibrant
         sunsets to the tranquil rustling of leaves, every moment in nature is a reminder of the wonders that surround us.
       </p>
+
       <h2>Unleashing the Power of Code:</h2>
       <p>
         Recently, I've been captivated by the world of coding. It's a new passion that I'm eager to explore further. Learning
@@ -57,6 +62,7 @@ const About = () => {
         It's like unlocking a secret language that opens up endless possibilities in the digital realm. This webpage is a
         testament to my progress, with more exciting projects on the horizon.
       </p>
+
       <h1>Dream Job</h1>
       <h2>Where I Wanna Work!</h2>
       <p>
@@ -83,6 +89,7 @@ const About = () => {
         opportunities that lie ahead. I look forward to being a part of companies that not only value individual growth but
         also foster a collaborative and innovative work culture.
       </p>
+
       <h1>Future Plans</h1>
       <h2>What's In My Distant Future Plans!!</h2>
       <p>
