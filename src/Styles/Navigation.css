@@ -1,0 +1,13 @@
+nav {
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  nav ul {
+    display: inline-block;
+    background-color: blueviolet;
+  }
+
+  button {
+    color: blueviolet;
+  }

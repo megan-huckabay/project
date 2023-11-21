@@ -10,6 +10,8 @@ import PastExperience from './Components/PastExperience';
 function App() {
   return (
     <Router>
+      <h1>Hello Everybody and Welcome to my Portfolio</h1>
+      <h6>(NOW CLICK THE BUTTONS BELOW TO NAVIGATE THREW THIS PAGE)</h6>
       <div>
         <Navigation />
 
@@ -19,6 +21,8 @@ function App() {
           <Route path="/Education" element={<Education />} />
           <Route path="/PastExperience" element={<PastExperience />} />
         </Routes>
+
+        <Navigation />
       </div>
     </Router>
   );

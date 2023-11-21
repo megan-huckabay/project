@@ -22,6 +22,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-align: center;
+  
 }
 
 .App-link {
@@ -34,5 +36,27 @@
   }
   to {
     transform: rotate(360deg);
-  }
+  }  
+}
+
+h1 {
+  color: #000000;
+  text-shadow: 4px 4px 15px rgba(240, 236, 243, 0.973);
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+  margin: 5px 0 0; 
+}
+
+h6 {
+  color: #000000;
+  text-shadow: 4px 4px 15px rgba(125, 25, 187, 0.973);
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  margin: 5px 0 0; 
+}
+body {
+  background-color: #eb9dbe;
+  border: #282c34;
 }
