@@ -1,30 +1,70 @@
-/* styles.css */
+/* About.css */
 
 .about-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .who-section,
-  .fun-container,
-  .dream-section,
-  .future-section {
-    margin-bottom: 40px;
-  }
-  
-  h1 {
-    color: #333;
-  }
-  
-  h2 {
-    color: #555;
-  }
-  
-  p {
-    line-height: 1.6;
-    color: #777;
-  }
-  
-  /* You can customize the styles further based on your design preferences */
-  
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.fun-container {
+  border: 10px solid #000000; 
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dream-container {
+  border: 10px solid #000000; 
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-section {
+  border: 10px solid #000000;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.art-section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.helping-section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.nature-section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.power-section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.job-section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.future-section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.about-page h1 {
+  color: purple;
+}
+
+.about-page h2 {
+  color: black;
+}
+
+.about-page p {
+  line-height: 1.6;
+  color: black;
+}

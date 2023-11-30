@@ -1,8 +1,9 @@
 import React from 'react';
+import "../Styles/Education.css";
 
 const Education = () => {
     return (
-        <div>
+        <div className="education-container education-page">
             <h1>Education</h1>
             <div>
                 {/* <img src="certificate-image.jpg" alt="Certificate Image" /> */}
@@ -15,58 +16,117 @@ const Education = () => {
                 </p>
                 <h2><strong>GCA (General Coding Assessment)</strong></h2>
                 <p>Score: 706</p>
-
             </div>
-            <div>
-                <h2><strong>Skills</strong></h2>
-                <ul>
-                    <li><strong>Front-End Development:</strong></li>
+                {/* <h2><strong>Skills</strong></h2>
+            <div className="skills-container">
+                <div className="frontend-section">
+                    <strong>Front-End Development:</strong>
                     <ul>
-                        <li>HTML5</li>
-                        <li>Cascading Style Sheets (CSS)</li>
-                        <li>JavaScript</li>
-                        <li>Document Object Model (DOM)</li>
-                        <li>User Interface Design</li>
-                        <li>React.js</li>
+                        HTML5<br />
+                        Cascading Style Sheets (CSS)<br />
+                        JavaScript<br />
+                        Document Object Model (DOM)<br />
+                        User Interface Design<br />
+                        React.js<br />
                     </ul>
-
-                    <li><strong>Back-End Web Development:</strong></li>
+                </div>
+                <div className="backend-section">
+                    <strong>Back-End Web Development:</strong>
                     <ul>
-                        <li>Node.js</li>
-                        <li>Express.js</li>
-                        <li>SQL</li>
-                        <li>SQL Database Administration</li>
-                        <li>Back-End Web Development</li>
+                        Node.js<br />
+                        Express.js<br />
+                        SQL<br />
+                        SQL Database Administration<br />
+                        Back-End Web Development<br />
                     </ul>
-
-                    <li><strong>Libraries and Technologies:</strong></li>
-                    <ul>
-                        <li>JavaScript Libraries</li>
-                        <li>axios</li>
-                        <li>Redux.js</li>
-                        <li>Heroku</li>
-                        <li>JSON</li>
-                        <li>TypeScript</li>
-                        <li>Microsoft Visual Studio Code</li>
-                    </ul>
-
-                    <li><strong>Other Skills:</strong></li>
-                    <ul>
-                        <li>REST APIs</li>
-                        <li>Programming</li>
-                        <li>Debugging</li>
-                        <li>Software</li>
-                        <li>Query Writing</li>
-                        <li>Problem Solving</li>
-                        <li>Markup Languages</li>
-                        <li>Network Security</li>
-                        <li>User Experience (UX)</li>
-                        <li>User Authentication</li>
-                    </ul>
-                </ul>
-
+                </div>
             </div>
-        </div>
+            <div className="dev-container">
+                <div className="tech-section">
+                    <strong>Libraries and Technologies:</strong><br />
+                    <ul>
+                        JavaScript Libraries<br />
+                        axios<br />
+                        Redux.js<br />
+                        Heroku<br />
+                        JSON<br />
+                        TypeScript<br />
+                        Microsoft Visual Studio Code<br />
+                    </ul>
+                </div>
+                <div className="other-section">
+                    <strong>Other Skills:</strong><br />
+                    <ul>
+                        REST APIs<br />
+                        Programming<br />
+                        Debugging<br />
+                        Software<br />
+                        Query Writing<br />
+                        Problem Solving<br />
+                        Markup Languages<br />
+                        Network Security<br />
+                        User Experience (UX)<br />
+                        User Authentication<br />
+                    </ul>
+                </div>
+            </div> */}
+
+
+<div className="skills-container">
+  <div className="frontend-section">
+    <strong>Front-End Development:</strong>
+    <ul>
+        HTML5<br />
+        Cascading Style Sheets (CSS)<br />
+        JavaScript<br />
+        Document Object Model (DOM)<br />
+        User Interface Design<br />
+        React.js<br />
+    </ul>
+  </div>
+  <div className="backend-tech">
+    <strong>Back-End Web Development:</strong>
+    <ul>
+        Node.js<br />
+        Express.js<br />
+        SQL<br />
+        SQL Database Administration<br />
+        Back-End Web Development<br />
+    </ul>
+  </div>
+</div>
+
+<div className="skills-container">
+  <div className="tech-section">
+    <strong>Libraries and Technologies:</strong><br />
+    <ul>  
+        JavaScript Libraries<br />
+        Axios<br />
+        Redux.js<br />
+        Heroku<br />
+        JSON<br />
+        TypeScript<br />
+        Microsoft Visual Studio Code<br />                    
+    </ul>
+  </div>
+  <div className="other-section">
+    <strong>Other Skills:</strong><br />
+    <ul>
+        REST APIs<br />
+        Programming<br />
+        Debugging<br />
+        Software<br />
+        Query Writing<br />
+        Problem Solving<br />
+        Markup Languages<br />
+        Network Security<br />
+        User Experience (UX)<br />
+        User Authentication<br />
+    </ul>
+  </div>
+</div>
+
+        </div >
     );
 };
 
