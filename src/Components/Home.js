@@ -13,25 +13,12 @@ const Home = () => {
       <div className="content-container">
 
         <div className="home-section">
-          <h2>Hi I'm <strong>Megan Huckabay</strong> but you can call me <strong>MEG</strong></h2>
-          <p><strong>Greetings!</strong> I'm a 33-year-old California native, proud to call the Golden State my home. Those who know me best often describe me as the... <br />
-          
-          <strong>"The Person they can call when they need to laugh or just to talk at anytime, someone who sees the world as a whole, someone who will always find the good in a person/situation, who consistently seeks the silver lining even in the toughest of situations."</strong>.<br />
-          
-          Having witnessed the challenges of the homeless crisis in California, I firmly believe in the transformative power of KINDNESS and HOPE These are not just words but guiding principles that I carry with me in all aspects of life.On a professional note, I recently graduated from BloomTech Institute of Technology as a Full-Stack Web Developer. Now, I invite you to explore the pages of my digital home, where you can learn more about my journey and the projects that define my passion for technology.
-          Thank you for visiting, and I hope you enjoy navigating through the various facets of my story.</p>
-        </div>
-        <div className="contact-section">
-          <h3>Contact Information</h3>
-          <p>main-email: <a href="mailto:techchick2023@gmail.com">techchick2023@gmail.com</a></p>
+          <h2><strong>Hello there!</strong></h2>
+          <p><br /><br /> Ready to embark on a virtual journey into the depths of my digital domain?<br /> I'm Megan Huckabay, your friendly guide<br /> <li>or just<strong> Meg</strong> if you're feeling casual.</li> <br/> Now that we've got the introductions sorted,<br /> let's explore the intricacies of this React.js wonderland I've concocted.<br /> Sprinkled at the summit and base of each page,<br /> you'll discover buttons itching to whisk you away to sections that peel back the layers of my personality,<br /> unveiling the real me – quirks, passions, and all.<br />
 
-          <p>alternative-email: <a href="mailto:huckabay90@gmail.com">huckabay90@gmail.com</a></p>
+          <strong>Imagine this:</strong> perched atop the education page,<br /> a snapshot of my academic triumphs comes to life.<br /> Feast your eyes on the <strong>BloomTech Institute of Technology</strong> certificate,<br /> standing tall beside my GCA score.<br /> But that's not all – a carefully curated list of web development skills awaits,<br /> ready to impress.<br /> As you navigate through the tales of my past professional exploits,<br /> brace yourself for a contact page that reads like a treasure map.<br /> <strong>Email coordinates, LinkedIn links, resume routes, and GitHub trails</strong><br /> <li>your key to unraveling the web of projects I've spun during my web development escapades.</li><br />
 
-          <p>GitHub:  <a href="https://github.com/meggers1990">GitHub</a></p>
-
-          <p>LinkedIn: <a href="https://linkedin.com/in/megan-huckabay">LinkedIn</a></p>
-
-          <p>Resume Link: <a href="https://docs.google.com/document/d/1d84juiC488FZ55L0Wioiz5BCJ5KyngAjabOw17EoqIc/edit?usp=sharing">Click for Resume</a></p>
+          So, fasten your seatbelt and enjoy the journey!<br /> Whether you're keen on unraveling more mysteries or just in the mood for a good laugh,<br /> feel free to drop me an email or connect on LinkedIn.<br /><br /><strong>Cheers!</strong></p>
         </div>
       </div>
     </div>

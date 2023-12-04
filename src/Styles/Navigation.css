@@ -1,19 +1,29 @@
 nav {
-  background-color: #007bff;
   padding: 1rem;
 }
 
-ul {
+.navigation-page ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between; /* Use space-between for spacing */
+  padding: 0; /* Remove default padding */
 }
 
-li {
-  margin: 0 1rem;
+.navigation-page li {
+  margin: 0;
 }
 
-a {
+.navigation-page a {
   text-decoration: none;
-  color: #fff;
+  color: #735CDD;
+  padding: 0.5rem 1rem; /* Adjust padding for the button */
+  margin: 0 0.1rem;
+  border: 5px solid #735CDD; /* Add a border for a button appearance */
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add transitions */
+}
+
+.navigation-page a:hover {
+  background-color: #9000B3; /* Change background color on hover */
+  color: #9000B3; /* Change text color on hover */
 }

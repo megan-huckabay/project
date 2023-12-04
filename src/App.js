@@ -6,12 +6,17 @@ import About from './Components/About';
 import Education from './Components/Education'; 
 import Navigation from './Components/Navigation';  
 import PastExperience from './Components/PastExperience';
+import Contact from './Components/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router> 
+      <header>
+      <div className="app-container">
       <h1>Hello Everybody and Welcome to my Portfolio</h1>
-      <h6>(NOW CLICK THE BUTTONS BELOW TO NAVIGATE THREW THE PAGES)</h6>
+      <h3>(NOW CLICK THE BUTTONS BELOW TO NAVIGATE THREW THE PAGES)</h3>
+      </div>
+      </header>
       <div>
         <Navigation />
 
@@ -20,6 +25,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Education" element={<Education />} />
           <Route path="/PastExperience" element={<PastExperience />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
 
         <Navigation />

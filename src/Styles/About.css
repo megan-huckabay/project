@@ -1,27 +1,28 @@
-/* About.css */
-
 .about-container {
   margin: 0 auto;
   padding: 20px;
 }
 
 .fun-container {
-  border: 10px solid #000000; 
+  border: 10px solid #7E007B; 
+  background-color: #B3C2F2;
   padding: 20px;
   margin-bottom: 20px;
   text-align: center;
 }
 
 .dream-container {
-  border: 10px solid #000000; 
+  border: 10px solid #7E007B; 
+  background-color: #B3C2F2;
   padding: 20px;
   margin-bottom: 20px;
   text-align: center;
 }
 
 .about-section {
-  border: 10px solid #000000;
-  padding: 15px;
+  border: 10px solid #7E007B;
+  background-color: #B3C2F2;
+  padding: 20px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -58,13 +59,23 @@
 
 .about-page h1 {
   color: purple;
+  text-shadow: 8px 4px 15px rgba(238, 4, 207, 0.973);
 }
 
 .about-page h2 {
   color: black;
+  text-shadow: 8px 4px 15px rgba(238, 4, 207, 0.973);
 }
 
 .about-page p {
   line-height: 1.6;
   color: black;
+}
+
+.about-page b {
+  color:rgb(55, 0, 255);
+}
+
+.about-page strong {
+  color:rgb(130, 1, 190);
 }

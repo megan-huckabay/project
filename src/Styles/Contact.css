@@ -1,0 +1,12 @@
+.contact-container {
+    border: 5px solid black;
+    margin: 5px;
+    padding:5px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  }
+
+  .contact-page a {
+    border: black;
+  }

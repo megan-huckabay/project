@@ -13,8 +13,8 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.header {
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,24 +38,23 @@
   }  
 }
 
-h1 {
-  color: #000000;
-  text-shadow: 4px 4px 15px rgba(240, 236, 243, 0.973);
+.app-container h1 {
+  color: rgb(0, 0, 0);
+  text-shadow: 4px 4px 15px rgba(2, 252, 252, 0.973);
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 100px;
   margin: 5px 0 0; 
 }
 
-h6 {
+.app-container h3 {
   color: #000000;
-  text-shadow: 4px 4px 15px rgba(125, 25, 187, 0.973);
+  text-shadow: 8px 4px 15px rgba(238, 4, 207, 0.973);
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 25px;
   margin: 5px 0 0; 
 }
 body {
-  background-color: #eb9dbe;
-  border: #282c34;
+  background-color: #2c2b30;
+  border: #ffffff;
 }
