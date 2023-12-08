@@ -5,7 +5,7 @@ import Home from './Components/Home';
 import About from './Components/About';   
 import Education from './Components/Education'; 
 import Navigation from './Components/Navigation';  
-import PastExperience from './Components/PastExperience';
+import Experience from './Components/Experience';
 import Contact from './Components/Contact';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Education" element={<Education />} />
-          <Route path="/PastExperience" element={<PastExperience />} />
+          <Route path="/Experience" element={<Experience />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
 

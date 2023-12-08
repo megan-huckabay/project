@@ -1,29 +1,33 @@
-nav {
+/* Navigation.css */
+
+.navigation-container {
   padding: 1rem;
 }
 
-.navigation-page ul {
+.navigation-container ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-between; /* Use space-between for spacing */
-  padding: 0; /* Remove default padding */
+  justify-content: space-between;
+  padding: 0;
 }
 
-.navigation-page li {
+.navigation-container li {
   margin: 0;
 }
 
-.navigation-page a {
+.navigation-container a {
   text-decoration: none;
-  color: #735CDD;
-  padding: 0.5rem 1rem; /* Adjust padding for the button */
+  color: white; 
+  padding: 0.5rem 1rem;
   margin: 0 0.1rem;
-  border: 5px solid #735CDD; /* Add a border for a button appearance */
-  border-radius: 5px; /* Add rounded corners */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Add transitions */
+  border: 2px solid black; /* Border color for the button */
+  border-radius: 5px;
+  background-color: grey; /* Background color for the button */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: inline-block;
 }
 
-.navigation-page a:hover {
-  background-color: #9000B3; /* Change background color on hover */
-  color: #9000B3; /* Change text color on hover */
+.navigation-container a:hover {
+  background-color: #2980b9;
+  color: white;
 }

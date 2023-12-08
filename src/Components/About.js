@@ -42,7 +42,7 @@ const About = () => {
       </div>
 
       <div className="dream-container">
-        <h1>What's Next for Me!</h1>
+         <h1>What's Next for Me!</h1>
 
         <div className="job-section">
           <h2><strong>Where I Wanna Work!</strong></h2>

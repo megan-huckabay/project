@@ -1,16 +1,16 @@
 import React from 'react';
-import "../Styles/PastExperience.css";
+import "../Styles/Experience.css";
 
-const PastExperience = () => {
+const Experience = () => {
   return (
-    <div>
+    <div className="experience-container experience-page">
       <h1>Experience</h1>
 
-      <div>
+      <div className='food-container'>
         <h2>Fast Food Industry</h2>
         <p>
-          Little Caesars Arroyo Grande, CA. 2010-2011
-          Jersey Mikes Subs, Sparks, NV. 2019
+          <u>Little Caesars Arroyo Grande, CA. 2010-2011|
+          Jersey Mikes Subs, Sparks, NV. 2019</u>
         </p>
         <p>
           During my time in the fast-food industry, I held various roles that contributed to the efficient
@@ -32,9 +32,9 @@ const PastExperience = () => {
         </p>
       </div>
 
-      <div>
+      <div className='nurse-container'>
         <h2>In-Home Care Nurse</h2>
-        <p>Private Clients/Family Pismo Beach, CA. | Porterville, CA. | Tipton, CA.</p>
+        <p><u>Private Clients/Family in Pismo Beach, CA. | Porterville, CA. | Tipton, CA.</u></p>
         <p>
           As an In-Home Care Nurse, I provided personalized care and support to individuals in the comfort of
           their own homes. My responsibilities included administering medications, monitoring vital signs, and
@@ -43,8 +43,11 @@ const PastExperience = () => {
         </p>
       </div>
 
-      <div>
-        <h2>Retail Positions</h2>
+      <div className='retail-container'>
+        <h2>Retail Position</h2>
+        <p>
+          <u>Levi's at the Pismo Beach Outlet Mall</u>
+        </p>
         <p>
           In my roles within the retail industry, I gained valuable experience in customer service and
           operations. I effectively assisted customers with their inquiries, provided product recommendations,
@@ -54,10 +57,10 @@ const PastExperience = () => {
         </p>
       </div>
 
-      <div>
+      <div className='youth-container'>
         <h2>Youth Care Worker</h2>
         <p>
-          Youth Care Worker at Community, Counseling, and Corrections Service Inc.
+          <u>Youth Care Worker at Community, Counseling, and Corrections Service Inc.</u>
         </p>
         <p>
           In my role as a Youth Care Worker, I provided compassionate care and assistance to individuals with
@@ -71,4 +74,4 @@ const PastExperience = () => {
   );
 };
 
-export default PastExperience;
+export default Experience;

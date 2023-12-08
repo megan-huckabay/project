@@ -1,12 +1,21 @@
 .contact-container {
-    border: 5px solid black;
-    margin: 5px;
-    padding:5px;
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  border: 5px solid black;
+  margin: 5px;
+  padding:5px;
+  background-color: indigo;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
   }
+.contact-page p {
+  color: black;
+}
 
-  .contact-page a {
-    border: black;
-  }
+.contact-page a {
+  color: green;
+}
+
+.contact-page h3 {
+  color: blue;
+  text-shadow:  8px 4px  purple;
+}

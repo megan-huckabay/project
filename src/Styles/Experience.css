@@ -1,0 +1,62 @@
+.experience-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid black; 
+  text-align: center;
+}
+.nurse-container{
+  justify-content:center ;
+  flex: 5;
+  padding: 5px;
+  margin: 5px;
+  border: 5px dotted pink;
+  text-align: center;
+}
+.youth-container {
+  justify-content:center ;
+  flex: 5;
+  padding: 5px;
+  margin: 5px;
+  border: 5px dotted pink;
+  text-align: center;
+}
+
+.retail-container{
+  justify-content:center ;
+  flex: 5;
+  padding: 5px;
+  margin: 5px;
+  border: 5px dotted pink;
+  text-align: center;
+}
+
+
+.food-container{
+  justify-content:center ;
+  flex: 5;
+  padding: 5px;
+  margin: 5px;
+  border: 5px dotted pink;
+  text-align: center;
+}
+
+.experience-page h1{
+  color:blue;
+  text-shadow:  8px 4px  purple;
+  text-align: center;
+}
+
+.experience-page h2{
+  color: blue;
+  text-shadow:  8px 4px  purple;
+}
+
+.experience-page p{
+  color:black;
+}
+
+.experience-page strong{
+  color:violet;
+}

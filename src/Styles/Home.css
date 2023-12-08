@@ -24,38 +24,6 @@ body {
   text-align: center;
 }
 
-/* Style the navigation section */
-/* nav {
-  font-family: 'Courier New', Courier, monospace;
-  color: black;
-  padding: 10px;
-  margin: 1px;
-}
-
-nav ul {
-  list-style: none;
-  margin: 20px;
-  padding: 1px;
-  display: flex;
-  justify-content: center;
-}
-
-nav li {
-  margin-right: 15px;
-  border: 15px solid black;
-  border-style: dotted;
-}
-
-nav a {
-  text-decoration: none;
-  color:rgb(0, 0, 0);
-  background-color: #a876eb;
-  margin: 13px;
-  border-style: dotted;
-  font-weight: bold;
-  font-size: larger;
-} */
-
 /* Style the main content section */
 main {
   max-width: 800px;
@@ -73,6 +41,10 @@ footer {
 
 .home-container {
   display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid black; 
 }
 
 .picture-container {
@@ -91,8 +63,12 @@ footer {
 }
 
 .content-container {
+  justify-content:center ;
   flex: 2;
-  padding: 20px;
+  padding: 5px;
+  margin: 5px;
+  border: 5px dotted pink;
+  text-align: center;
 }
 
 .home-section {
@@ -100,23 +76,19 @@ footer {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   font-weight: bold;
-  border: 10px solid black;
+  border: wavy ;
 }
 
 /* Style the <strong> tag inside the .home-section */
-.home-section strong {
-  color: #670cbb; 
+.home-page strong {
+  color: violet; 
 }
 
-.home-section p {
+.home-page p {
   text-size-adjust: large;
 }
-.contact-section {
-  text-align: right;
-  font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-}
 
-h3 {
-  text-decoration: underline;
+.home-page h2 {
+  color: blue;
+  text-shadow:  8px 4px  purple;
 }
