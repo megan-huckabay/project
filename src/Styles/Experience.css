@@ -8,55 +8,58 @@
 }
 .nurse-container{
   justify-content:center ;
-  flex: 5;
+  flex: 1;
   padding: 5px;
   margin: 5px;
-  border: 5px dotted pink;
+  border: 5px dotted purple;
   text-align: center;
+  background-color: pink;
 }
 .youth-container {
   justify-content:center ;
-  flex: 5;
+  flex: 1;
   padding: 5px;
   margin: 5px;
-  border: 5px dotted pink;
+  border: 5px dotted purple;
   text-align: center;
+  background-color: pink;
 }
 
 .retail-container{
   justify-content:center ;
-  flex: 5;
+  flex: 1;
   padding: 5px;
   margin: 5px;
-  border: 5px dotted pink;
+  border: 5px dotted purple;
   text-align: center;
+  background-color: pink;
 }
 
 
 .food-container{
   justify-content:center ;
-  flex: 5;
+  flex: 1;
   padding: 5px;
   margin: 5px;
-  border: 5px dotted pink;
+  border: 5px dotted purple;
   text-align: center;
+  background-color: pink;
 }
 
 .experience-page h1{
-  color:blue;
-  text-shadow:  8px 4px  purple;
+  color: black;
   text-align: center;
 }
 
 .experience-page h2{
-  color: blue;
-  text-shadow:  8px 4px  purple;
+  color: #000000;
+  
 }
 
 .experience-page p{
-  color:black;
+  color: #000000
 }
 
 .experience-page strong{
-  color:violet;
+  color: purple;
 }

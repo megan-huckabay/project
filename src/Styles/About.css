@@ -1,47 +1,73 @@
 .about-container {
-  margin: 20px;
-  padding: 20px;
+  display: flex; /* Set display to flex to enable flex properties */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+  justify-content: space-around; /* Adjust as needed */
+  align-items: center; /* Align items in the center vertically */
   border: 5px solid black;
+  background-color: #57cc99;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
+/* Modify the CSS for the "picture-container" class */
+.picture-container {
+  flex: 1; /* Allow the container to grow and shrink */
+  padding: 20px;
+  margin: 5px;
+  background-color: #adf5e5;
+  border: 5px dotted #370263;
+}
+
+.picture-container img {
+  width: 70%;
+  height: 50%;
+  border-radius: 8px;
+}
+
+
 .about-section {
-  border: 10px solid black;
-  background-color: pink;
+  border: 5px solid black;
+  background-color: #57cc99;
   padding: 20px;
   margin-bottom: 20px;
   text-align: center;
 }
 
 .fun-container {
-  border: 10px solid black; 
-  background-color: pink;
+  border: 5px solid black; 
+  background-color: #57cc99;
   padding: 20px;
   margin-bottom: 20px;
   text-align: center;
 }
 
-.art-section{
+.art-section {
   padding: 20px;
   margin-bottom: 20px;
-  border: dotted yellow;
+  background-color: #adf5e5;
+  border: 5px dotted #370263; /* Use another color for the dotted border */
 }
 
-.helping-section{
+.helping-section {
   padding: 20px;
   margin-bottom: 20px;
-  border: dotted yellow;
+  background-color: #adf5e5;
+  border: 5px dotted #370263; /* Use another color for the dotted border */
 }
 
-.nature-section{
+.nature-section {
   padding: 20px;
   margin-bottom: 20px;
-  border: dotted yellow;
+  background-color: #adf5e5;
+  border: 5px dotted #370263; /* Use another color for the dotted border */
 }
 
 .power-section {
   padding: 20px;
   margin-bottom: 20px;
-  border: dotted yellow;
+  background-color: #adf5e5;
+  border: 5px dotted #370263; /* Use another color for the dotted border */
 }
 
 .dream-container {
@@ -52,34 +78,36 @@
   text-align: center;
 }
 
-.job-section{
+.job-section {
   padding: 20px;
   margin-bottom: 20px;
-  border: dotted pink;
+  background-color: #adf5e5;
+  border: 5px dotted #370263; /* Use another color for the dotted border */
 }
+
 .future-section {
   padding: 20px;
   margin-bottom: 20px;
-  border: dotted pink;
+  background-color:#adf5e5 ;
+  border: 5px dotted #370263;
 }
 
-
 .about-page h1 {
-  color: blue;
-  text-shadow: 8px 4px 15px purple;
+  color: #8a4baf; /* Light purple color */
+  text-shadow: 8px 4px #80ed99;
 }
 
 .about-page h2 {
-  color: blue;
-  text-shadow: 8px 4px 15px purple;
+  color: #006466;
+  text-shadow: 8px 4px #57cc99;
 }
 
 .about-page p {
-  color: black;
+  color: #0b525b;
 }
 
 .about-page b {
-  color:blueviolet;
+  color: #144552;
 }
 
 .about-page strong {

@@ -12,83 +12,47 @@ body, h1, h2, h3, p, ul, li {
 /* Set up basic styles for the entire page */
 body {
   font-family: 'Arial', sans-serif;
-  font-size: 33px;
+  font-size: 16px; /* Adjusted font size for better readability */
   line-height: 1.6;
-}
-
-/* Style the header section */
-.header {
-  background-color: #333;
-  color: #f58181;
-  padding: 10px;
-  text-align: center;
-}
-
-/* Style the main content section */
-main {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-}
-
-/* Style the footer section */
-footer {
-  background-color: #333;
-  color: #4e109e;
-  padding: 10px;
-  text-align: center;
 }
 
 .home-container {
   display: flex;
-  justify-content: space-between;
   margin: 20px;
   padding: 20px;
-  border: 5px solid black; 
-}
-
-.picture-container {
-  flex: 1;
-  padding: 20px;
-  margin: 5px;
-  background-color: #4e109e;
-  width: 300px; /* Set the width of the container */
-  height: 1800px; /* Set the height of the container */
-}
-
-.picture-container img {
-  width: 100%; /* Make the image fill the container width */
-  height: 100%; /* Make the image fill the container height */
-  border-radius: 8px; /* Optional: Add rounded corners to the image */
+  border: 10px solid #01ffc8; /* Adjusted border color with transparency */
 }
 
 .content-container {
-  justify-content:center ;
+  justify-content: center;
   flex: 2;
-  padding: 5px;
-  margin: 5px;
-  border: 5px dotted pink;
+  padding: 10px;
+  margin: 10px;
+  background-color: #adf5e5;
   text-align: center;
 }
 
 .home-section {
-  font-size: 34px; /* Adjust the font size as needed */
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2em; /* Adjusted font size */
+  font-family: 'Libre Baskerville', serif;
   text-align: center;
   font-weight: bold;
-  border: wavy ;
+  border: 5px dotted rgb(79, 3, 255);
+  white-space: nowrap;
 }
 
 /* Style the <strong> tag inside the .home-section */
 .home-page strong {
-  color: violet; 
+  color: #ae00ff; 
 }
 
 .home-page p {
-  text-size-adjust: large;
+  font-size: 1em; /* Adjusted font size */
+  color: #000000;
 }
 
 .home-page h2 {
-  color: blue;
-  text-shadow:  8px 4px  purple;
+  color: #00b4a5;
+  text-shadow: 8px 4px rgb(171, 87, 204); /* Adjusted text shadow */
+  font-size: 1.5em; /* Adjusted font size */
 }

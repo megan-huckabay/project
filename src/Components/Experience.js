@@ -36,10 +36,11 @@ const Experience = () => {
         <h2>In-Home Care Nurse</h2>
         <p><u>Private Clients/Family in Pismo Beach, CA. | Porterville, CA. | Tipton, CA.</u></p>
         <p>
-          As an In-Home Care Nurse, I provided personalized care and support to individuals in the comfort of
-          their own homes. My responsibilities included administering medications, monitoring vital signs, and
-          assisting with activities of daily living. I demonstrated exceptional attention to detail, empathy,
-          and effective communication skills to ensure the well-being and comfort of my clients.
+        As an In-Home Care Nurse, my focus was on providing personalized care and support to individuals within the familiar setting of their homes. I handled responsibilities such as administering medications, closely monitoring vital signs, and assisting with day-to-day activities.
+
+        My commitment to detail, empathy, and effective communication was evident in every interaction. I aimed not only to ensure the physical well-being of my clients but also to create a supportive and comfortable environment. Beyond the medical aspects, I took pride in fostering independence by helping with daily activities, recognizing the significance of maintaining dignity in care.
+
+        I approached my role with a dedicated and empathetic mindset, tailoring care plans to meet the unique needs of each individual. Through open communication with both clients and their families, I ensured everyone was informed and involved in the care process, fostering trust and collaboration. In essence, my role as an In-Home Care Nurse was centered on holistic care that prioritized the overall health and comfort of those I served.
         </p>
       </div>
 
@@ -49,11 +50,11 @@ const Experience = () => {
           <u>Levi's at the Pismo Beach Outlet Mall</u>
         </p>
         <p>
-          In my roles within the retail industry, I gained valuable experience in customer service and
-          operations. I effectively assisted customers with their inquiries, provided product recommendations,
-          and ensured a positive shopping experience. Additionally, I was responsible for maintaining store
-          cleanliness, restocking shelves, and managing inventory. My time in retail honed my organizational
-          skills, attention to detail, and ability to work efficiently in a fast-paced environment.
+        In my various roles within the retail industry, I acquired significant expertise in customer service and operational management. A key aspect of my responsibilities involved skillfully addressing customer inquiries, offering tailored product recommendations, and ensuring a consistently positive shopping experience.
+
+        Beyond customer interactions, I took on the crucial tasks of maintaining store cleanliness, strategically restocking shelves, and efficiently managing inventory. This multifaceted experience in retail not only enhanced my organizational skills but also sharpened my attention to detail. Thriving in the fast-paced retail environment, I developed the ability to work efficiently and maintain a high level of productivity.
+
+        My time in the retail sector was marked by a commitment to excellence, whether it was creating a welcoming atmosphere for customers or optimizing operational processes. This experience equipped me with a versatile skill set that goes beyond the register, encompassing a keen understanding of customer needs, effective inventory management, and the ability to excel in a dynamic and demanding workplace.
         </p>
       </div>
 
@@ -63,11 +64,11 @@ const Experience = () => {
           <u>Youth Care Worker at Community, Counseling, and Corrections Service Inc.</u>
         </p>
         <p>
-          In my role as a Youth Care Worker, I provided compassionate care and assistance to individuals with
-          specific needs. This involved helping with daily activities, providing emotional support, and ensuring
-          a safe and nurturing environment. Collaborating closely with a team of professionals, I developed
-          strong teamwork, communication, and problem-solving skills, contributing to the overall well-being of
-          the residents.
+        In my capacity as a Youth Care Worker, my primary focus was on delivering compassionate care and support to individuals with specific needs. I played a pivotal role in assisting with their daily activities, offering emotional support, and creating a safe and nurturing environment that fostered their overall well-being.
+
+        A significant aspect of my role involved collaborative efforts within a team of dedicated professionals. This collaborative environment allowed me to develop strong teamwork, effective communication, and adept problem-solving skills. Working in tandem with my colleagues, I contributed to the holistic care of the residents, ensuring that their unique needs were met with sensitivity and professionalism.
+
+        The essence of my work as a Youth Care Worker extended beyond mere assistance; it encompassed a commitment to creating a supportive community where individuals felt valued, understood, and empowered. Through a combination of hands-on care, emotional encouragement, and collaborative teamwork, I strived to enhance the quality of life for those under my care.
         </p>
       </div>
     </div>

@@ -3,17 +3,16 @@
 }
  
 .education-page p {
-  color: black;
+  color: black
 }
 
 .education-page h1 {
-  color: blue;
-  text-shadow:  8px 4px  purple;
+  color: black;
+  text-shadow:  4px 4px  #d780ed;
 }
 
 .education-page h2 {
-  color: blue;
-  text-shadow:  8px 4px  purple;
+  color: black;
 }
 
 .education-page ul {
@@ -36,7 +35,8 @@
   flex: 5;
   padding: 5px;
   margin: 5px;
-  border: 5px dotted pink;
+  border: 5px dotted #57cc99;
+  background-color: pink;
 }
 
 .skills-container {
@@ -45,6 +45,7 @@
   margin: 20px;
   padding: 20px;
   border: 5px solid black; 
+  background-color: #57cc99;
 }
 .frontend-section,
 .backend-section{
@@ -52,7 +53,8 @@
   flex: 5;
   padding: 5px;
   margin: 5px;
-  border: 2px dotted pink;
+  border: 5px dotted purple;
+  background-color: pink;
 }
 
 .skills2-container {
@@ -60,7 +62,8 @@
   justify-content: space-between;
   margin: 0 auto;
   padding: 20px;
-  border: 5px solid black; 
+  border: 5px solid black;
+  background-color: #57cc99; 
 }
 
 .tech-section,
@@ -69,5 +72,6 @@
   flex: 5;
   padding: 5px;
   margin: 5px;
-  border: dotted pink;
+  border: 5px dotted purple;
+  background-color: pink;
 }

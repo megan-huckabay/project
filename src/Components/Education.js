@@ -22,12 +22,17 @@ const Education = () => {
                 <div className="frontend-section">
                     <strong>Front-End Development:</strong>
                     <ul>
-                        <b>HTML5<br />
-                        Cascading Style Sheets (CSS)<br />
-                        JavaScript<br />
-                        Document Object Model (DOM)<br />
-                        User Interface Design<br />
-                        React.js<br /></b>
+                        <b>HTML5 <br/ >
+                        CSS (Cascading Style Sheets)<br/ >
+                        JavaScript<br/ >
+                        User Interface Design<br/ >
+                        npm (Node Package Manager)<br/ >
+                        Version Control/Github<br/ >
+                        Jest (for React.js)<br/ >
+                        Testing Library (e.g., React Testing Library)<br/ >
+                        Fetch API<br/ >
+                        Async/Await<br/ >
+                        Web Accessibility (WCAG)<br/ ></b>
                     </ul>
                 </div>
                 <div className="backend-section">
@@ -35,9 +40,14 @@ const Education = () => {
                     <ul>
                         <b>Node.js<br />
                         Express.js<br />
-                        SQL<br />
-                        SQL Database Administration<br />
-                        Back-End Web Development<br /></b>
+                        SQL (Database Management)<br />
+                        RESTful API Design<br />
+                        Authentication and Authorization<br />
+                        Middleware (Express.js)<br />
+                        GraphQL<br />
+                        WebSockets (Real-time Communication)<br />
+                        Testing (e.g., Jest)<br />
+                        CI/CD (Continuous Integration/Continuous Deployment)</b>
                     </ul>
                 </div>
             </div>
@@ -52,7 +62,10 @@ const Education = () => {
                         Heroku<br />
                         JSON<br />
                         TypeScript<br />
-                        Microsoft Visual Studio Code<br /></b>
+                        Microsoft Visual Studio Code<br />
+                        React.js<br />
+                        Express.js<br />
+                        Webpack<br /></b>
                     </ul>
                 </div>
                 <div className="other-section">

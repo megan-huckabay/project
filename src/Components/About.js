@@ -1,9 +1,25 @@
 import React from 'react';
 import "../Styles/About.css";
+import profilePicture from '../images/me-oregon.jpg';
 
 const About = () => {
   return (
     <div className="about-container about-page">
+      <div className="picture-container">
+        <img src={profilePicture} alt="profilePicture" />
+      </div>
+      <div className="picture-container">
+        <img src={profilePicture} alt="profilePicture" />
+      </div>
+      <div className="picture-container">
+        <img src={profilePicture} alt="profilePicture" />
+      </div>
+      <div className="picture-container">
+        <img src={profilePicture} alt="profilePicture" />
+      </div>
+      <div className="picture-container">
+        <img src={profilePicture} alt="profilePicture" />
+      </div>
       <div className="about-section">
         <h1>About Me</h1>
 
