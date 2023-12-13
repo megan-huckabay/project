@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Navigation component and checks styles 1`] = `
+<div>
+  <div
+    class="navigation-container"
+  >
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="nav-button"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-button"
+            href="/About"
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-button"
+            href="/Education"
+          >
+            Education
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-button"
+            href="/Experience"
+          >
+            Experience
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-button"
+            href="/Contact"
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;

@@ -11,7 +11,7 @@
 }
 
 /* Modify the CSS for the "picture-container" class */
-.picture-container {
+.about-page .picture-container {
   flex: 2; /* Allow the container to grow and shrink */
   padding: 0;
   margin: 0;
@@ -19,7 +19,7 @@
   border: 2px #000000;
 }
 
-.picture-section img {
+.about-page .picture-section img {
   width: 15rem;
   height: 30rem;
   border-radius: 8px;

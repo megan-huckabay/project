@@ -45,7 +45,19 @@
   border: 5px solid #000000;
   background: rgba(255, 255, 255, 0.5);
 }
+.picture-container {
+  flex: 2; /* Allow the container to grow and shrink */
+  padding: 1em;
+  margin: 1em;
+  justify-content: space-between;
+  border: 2px #000000;
+}
 
+.picture-section img {
+  width: 50rem;
+  height: 40rem;
+  border-radius: 8px;
+}
 .skills-container {
   display: flex;
   justify-content: space-between;

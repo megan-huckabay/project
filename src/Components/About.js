@@ -26,7 +26,7 @@ const About = () => {
         <p>In my previous roles, whether it was managing the opening crew operations at <i>Little Caesars</i> or providing compassionate care as a <i>Youth Care Worker/In-home Care Nurse</i>, my experiences have taught me the value of <b><i>effective communication</i></b>,<b><i>attention to detail</i></b>, and <b><i>the importance of fostering a positive</i></b> and <b><i>collaborative work environment</i></b>. I've cultivated a <i><b>strong work ethic, adaptability, and problem-solving skills</b></i>. I believe in approaching challenges with kindness and hope, a philosophy that extends to my perspective on addressing complex issues like the homeless crisis, not only in California but around the world.</p>
       </div>
 
-      <div className="fun-container">
+      <div className="fun-container" data-testid="fun-container">
         <h1>Things I Enjoy in My Spare Time!</h1>
 
         <div className="art-section">
@@ -55,7 +55,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="dream-container">
+      <div className="dream-container" data-testid="dream-container">
         <h1>What's Next for Me!</h1>
 
         <div className="job-section">
