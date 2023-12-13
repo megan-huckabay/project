@@ -6,7 +6,9 @@ body, h1, h2, h3, p {
 
 body {
   font-family: Arial, sans-serif; /* Choose a common font for better cross-browser consistency */
-  background-color: #525151;
+  background-image: url('./images/sunset-beach-background.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+  background-size: cover; /* This ensures the background image covers the entire viewport */
+  background-position: center; /* Center the background image */
 }
 
 /* Center the entire application */
@@ -56,18 +58,11 @@ body {
 
 /* Heading 1 styling */
 .app-container h1 {
-  color: #0b4053; /* Turquoise color */
-  text-shadow: 8px 4px 15px #4bd7df;
-  font-family: 'Libre Baskerville', serif;
+  color: #000000; /* Turquoise color */
+  text-shadow: 8px 4px 15px #006eff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 5em;
   margin: 5px 0 0; 
 }
 
-/* Heading 3 styling */
-.app-container h3 {
-  color: #0b4053; /* Turquoise color */
-  text-shadow: 8px 4px 15px #4bd7df;
-  font-family: 'EB Garamond', serif;
-  font-size: 2em;
-  margin: 5px 0 0; 
-}
+

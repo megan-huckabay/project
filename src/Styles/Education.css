@@ -2,13 +2,19 @@
 @media screen and (max-width: 600px) {
 }
  
+.education-page a {
+  color: black;
+  font-weight: bold;
+}
 .education-page p {
   color: black
 }
 
 .education-page h1 {
-  color: black;
-  text-shadow:  4px 4px  #d780ed;
+  color: #000000; /* Turquoise color */
+  text-shadow: 8px 4px 15px #006eff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 4em;
 }
 
 .education-page h2 {
@@ -24,10 +30,11 @@
 }
 
 .education-container { 
-  padding: 20px;
+  padding: 10px;
   margin: 20px;
   text-align: center;
-  border: 5px solid black;
+  /* border: 5px solid black; */
+  font-size: 1.2rem;
 }
 
 .school-section{
@@ -35,8 +42,8 @@
   flex: 5;
   padding: 5px;
   margin: 5px;
-  border: 5px dotted #57cc99;
-  background-color: pink;
+  border: 5px solid #000000;
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .skills-container {
@@ -44,34 +51,64 @@
   justify-content: space-between;
   margin: 20px;
   padding: 20px;
-  border: 5px solid black; 
-  background-color: #57cc99;
+  /* border: 5px solid black;  */
+  /* background: rgba(255, 255, 255, 0.5); */
 }
 .frontend-section,
 .backend-section{
   justify-content: space-between ;
   flex: 5;
-  padding: 5px;
-  margin: 5px;
-  border: 5px dotted purple;
-  background-color: pink;
+  margin-right: 5rem;
+  margin-left:  5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 5px solid #000000;
+  background: rgba(255, 255, 255, 0.5)
 }
 
 .skills2-container {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 20px;
   padding: 20px;
-  border: 5px solid black;
-  background-color: #57cc99; 
+  /* border: 5px solid black; */
+  /* background: rgba(255, 255, 255, 0.5);  */
 }
 
 .tech-section,
 .other-section {
   justify-content: space-between ;
   flex: 5;
+  margin-right: 5rem;
+  margin-left:  5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 5px solid #000000;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.github-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  /* border: 5px solid black;
+  background: rgba(255, 255, 255, 0.5); */
+}
+
+.repo1-section{
+  justify-content: space-between ;
+  flex: 2;
   padding: 5px;
   margin: 5px;
-  border: 5px dotted purple;
-  background-color: pink;
+  border: 5px solid #000000;
+  background: rgba(255, 255, 255, 0.5);
+}
+.repo2-section {
+  justify-content: space-between ;
+  flex: 2;
+  padding: 5px;
+  margin: 5px;
+  border: 5px solid #000000;
+  background: rgba(255, 255, 255, 0.5);
 }

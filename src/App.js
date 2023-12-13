@@ -13,8 +13,7 @@ function App() {
     <Router> 
       <header>
       <div className="app-container">
-      <h1>Hello Everybody and Welcome to my Portfolio</h1>
-      <h3>(NOW CLICK THE BUTTONS BELOW TO NAVIGATE THREW THE PAGES)</h3>
+      <h1>Welcome to my Portfolio</h1>
       </div>
       </header>
       <div>

@@ -4,7 +4,6 @@ import "../Styles/Experience.css";
 const Experience = () => {
   return (
     <div className="experience-container experience-page">
-      <h1>Experience</h1>
 
       <div className='food-container'>
         <h2>Fast Food Industry</h2>
