@@ -1,31 +1,19 @@
-/* education-styles.css */
-@media screen and (max-width: 600px) {
-}
- 
+.education-page p, 
+.education-page h2, 
 .education-page a {
   color: black;
   font-weight: bold;
-}
-.education-page p {
-  color: black
 }
 
 .education-page h1 {
   color: #000000; /* Turquoise color */
   text-shadow: 8px 4px 15px #006eff;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
   font-size: 4em;
 }
 
-.education-page h2 {
-  color: black;
-}
-
+.education-page li,
 .education-page ul {
-  text-align: center;
-}
-
-.education-page li {
   text-align: center;
 }
 
@@ -33,7 +21,6 @@
   padding: 10px;
   margin: 20px;
   text-align: center;
-  /* border: 5px solid black; */
   font-size: 1.2rem;
 }
 
@@ -58,14 +45,7 @@
   height: 40rem;
   border-radius: 8px;
 }
-.skills-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px;
-  padding: 20px;
-  /* border: 5px solid black;  */
-  /* background: rgba(255, 255, 255, 0.5); */
-}
+
 .frontend-section,
 .backend-section{
   justify-content: space-between ;
@@ -78,13 +58,13 @@
   background: rgba(255, 255, 255, 0.5)
 }
 
+.github-container,
+.skills-container,
 .skills2-container {
   display: flex;
   justify-content: space-between;
   margin: 20px;
   padding: 20px;
-  /* border: 5px solid black; */
-  /* background: rgba(255, 255, 255, 0.5);  */
 }
 
 .tech-section,
@@ -99,15 +79,7 @@
   background: rgba(255, 255, 255, 0.5);
 }
 
-.github-container{
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 20px;
-  /* border: 5px solid black;
-  background: rgba(255, 255, 255, 0.5); */
-}
-
+.repo2-section,
 .repo1-section{
   justify-content: space-between ;
   flex: 2;
@@ -116,11 +88,4 @@
   border: 5px solid #000000;
   background: rgba(255, 255, 255, 0.5);
 }
-.repo2-section {
-  justify-content: space-between ;
-  flex: 2;
-  padding: 5px;
-  margin: 5px;
-  border: 5px solid #000000;
-  background: rgba(255, 255, 255, 0.5);
-}
+ 

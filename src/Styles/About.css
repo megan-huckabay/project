@@ -1,18 +1,20 @@
 .about-container {
-  display: flex; /* Set display to flex to enable flex properties */
-  flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
-  justify-content: space-around; /* Adjust as needed */
-  align-items: center; /* Align items in the center vertically */
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  align-items: center; 
   border:2px #000000;
   padding: 0;
   margin: 0;
   text-align: center;
   font-size: 1.5rem;
-}
 
-/* Modify the CSS for the "picture-container" class */
+  @media only screen and (max-width: 768px) {
+    flex-direction: column; 
+  }
+}
 .about-page .picture-container {
-  flex: 2; /* Allow the container to grow and shrink */
+  flex: 2; 
   padding: 0;
   margin: 0;
   justify-content: space-evenly;
@@ -25,91 +27,37 @@
   border-radius: 8px;
 }
 
-.about-section {
-  border: 5px dotted black;
-  padding: 20px;
-  margin: 20px;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.fun-container {
-  /* border: 2px solid black;  */
-  padding: 20px;
-  margin: 20px;
-  text-align: center;
-}
-
-.art-section {
-  padding: 20px;
-  margin: 20px;
-  background: rgba(255, 255, 255, 0.5);
-  border: 5px dotted #000000; /* Use another color for the dotted border */
-}
-
-.helping-section {
-  padding: 20px;
-  margin: 20px;
-  background: rgba(255, 255, 255, 0.5);
-  border: 5px dotted #000000; /* Use another color for the dotted border */
-}
-
-.nature-section {
-  padding: 20px;
-  margin: 20px;
-  background: rgba(255, 255, 255, 0.5);
-  border: 5px dotted #000000; /* Use another color for the dotted border */
-}
-
-.power-section {
-  padding: 20px;
-  margin: 20px;
-  background: rgba(255, 255, 255, 0.5);
-  border: 5px dotted #000000; /* Use another color for the dotted border */
-}
-
+.fun-container,
 .dream-container {
-  /* border: 2px solid black;  */
   padding: 20px;
   margin: 20px;
   text-align: center;
 }
 
-.job-section {
+.about-section, 
+.art-section,
+.helping-section,
+.nature-section, 
+.power-section, 
+.job-section,
+.future-section {
   padding: 20px;
   margin: 20px;
-  background: rgba(255, 255, 255, 0.5);
-  border: 5px dotted #000000; /* Use another color for the dotted border */
-}
-
-.future-section {
-  padding: 0;
-  margin: 0;
+  text-align: center;
   background: rgba(255, 255, 255, 0.5);
   border: 5px dotted rgb(2, 1, 2);
 }
 
-.about-page h1 {
-  color: #000000; /* Light purple color */
-  text-shadow: 2px 2px #ff008c;
-}
-
+.about-page h1,
 .about-page h2 {
-  color: #000000;
+  color: #000000; 
   text-shadow: 2px 2px #ff008c;
 }
 
+
+.about-page b,
+.about-page strong,
 .about-page p {
   color: #000000;
-  font-style: bold;
-}
-
-.about-page b {
-  color: #000000;
-  font-style: bold;
-}
-
-.about-page strong {
-  color: #000000;
-  font-style: bold;
+  font-weight: bold;
 }
