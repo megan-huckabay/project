@@ -1,35 +1,69 @@
+/* Styles for the navigation container */
 .navigation-container {
   padding: 1rem;
+  margin: 1rem;
   text-align: center; 
+  font-size: 5rem;
+  font-weight: bold;
+  
+  /* Media query for screens with a maximum width of 768px and adjust for smaller screens */
   @media only screen and (max-width: 768px) {
+    font-size: 2rem; /* Decrease font size */
+    margin: 0.5rem; /* Reduce margin */
   }
 }
 
+/* Styles for the unordered list inside the navigation container */
 .navigation-container ul {
+  /* Removes default list styling */
   list-style-type: none;
+  /* Displays list items horizontally and centers them */
   display: flex;
-  justify-content: center; /* Center the flex items horizontally */
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
+  justify-content: center; 
+  padding: 1rem; 
+  margin: 1rem; 
+
+  /* Additional styles for smaller screens */
+  @media only screen and (max-width: 768px) {
+    padding: 0; /* Remove padding for mobile */
+    flex-direction: column; /* Stack list items vertically for mobile */
+  }
 }
 
+/* Styles for list items inside the navigation container */
 .navigation-container li {
-  margin: 0.5rem; /* Adjust the margin as needed */
+  margin: 0.5rem; 
+  padding: 0.5rem;
 }
 
+/* Styles for anchor (link) elements inside the navigation container */
 .navigation-container a {
-  text-decoration: none;
   color: rgb(0, 0, 0);
-  padding: 0.5rem 1rem;
-  margin: 0 0.2rem; /* Adjust the margin to control the spacing */
-  border: 2px solid black;
+  text-decoration: none;
+  padding: 2rem;
+  margin: 2rem; 
+  border: 2px dotted black;
+  /* Adds rounded corners to the link */
   border-radius: 5px;
+  /* Adds a semi-transparent white background to the link */
   background: rgba(255, 255, 255, 0.5);
+  /* Smooth transition for background color and text color changes */
   transition: background-color 0.3s ease, color 0.3s ease;
+  /* Displays links as inline-block elements */
   display: inline-block;
+
+  /* Additional styles for smaller screens */
+  @media only screen and (max-width: 768px) {
+    padding: 1rem; /* Adjust padding for mobile */
+    margin: 1rem; /* Adjust margin for mobile */
+  }
+
 }
 
+/* Hover styles for anchor elements inside the navigation container */
 .navigation-container a:hover {
+  /* Background color and text color changes on hover */
   background-color: rgb(118, 236, 240);
   color: white;
 }
+

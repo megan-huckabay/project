@@ -5,34 +5,41 @@
   padding: 20px;
   border: 5px solid black; 
   text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
   @media only screen and (max-width: 768px) {
-  }
+    /* Adjustments for smaller screens can be added here */
+    .experience-container {
+      /* Example adjustment: reduce padding for smaller screens */
+      padding: 10px;
+    }
 }
 .nurse-container{
   justify-content:center ;
-  flex: 1;
+  flex: 2;
   padding: 5px;
   margin: 5px;
-  border: 5px dotted purple;
+  border: 5px dotted rgb(0, 0, 0);
   text-align: center;
   background: rgba(255, 255, 255, 0.5);
 }
 .youth-container {
   justify-content:center ;
-  flex: 1;
+  flex: 2;
   padding: 5px;
   margin: 5px;
-  border: 5px dotted purple;
+  border: 5px dotted rgb(0, 0, 0);
   text-align: center;
   background: rgba(255, 255, 255, 0.5);
 }
 
 .retail-container{
   justify-content:center ;
-  flex: 1;
+  flex: 2;
   padding: 5px;
   margin: 5px;
-  border: 5px dotted purple;
+  border: 5px dotted rgb(0, 0, 0);
   text-align: center;
   background: rgba(255, 255, 255, 0.5);
 }
@@ -40,10 +47,10 @@
 
 .food-container{
   justify-content:center ;
-  flex: 1;
+  flex: 2;
   padding: 5px;
   margin: 5px;
-  border: 5px dotted purple;
+  border: 5px dotted rgb(0, 0, 0);
   text-align: center;
   background: rgba(255, 255, 255, 0.5);
 }

@@ -17,19 +17,34 @@
   text-align: center;
 }
 
-.education-container .education-page{ 
-  padding: 10px;
-  margin: 20px;
+.education-container { 
+  margin-right: 5rem;
+  margin-left:  5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 5rem;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 3rem;
 }
 
+/* Media query for screens with a maximum width of 768px (Mobile) */
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .education-container {
+    /* Adjusted margin and padding for better spacing on mobile */
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2rem; /* Adjusted font size for mobile */
+  }
+}
 .school-section{
   justify-content:center ;
-  flex: 5;
-  padding: 5px;
-  margin: 5px;
+  flex: 2;
+  padding: 3px;
+  margin: 3px;
   border: 5px solid #000000;
+  font-size: 3rem;
   background: rgba(255, 255, 255, 0.5);
 }
 .picture-container {
@@ -41,15 +56,15 @@
 }
 
 .picture-section img {
-  width: 50rem;
-  height: 40rem;
+  width: 125rem;
+  height: 100rem;
   border-radius: 8px;
 }
 
 .frontend-section,
 .backend-section{
   justify-content: space-between ;
-  flex: 5;
+  flex: 2;
   margin-right: 5rem;
   margin-left:  5rem;
   padding-top: 1rem;
@@ -70,7 +85,7 @@
 .tech-section,
 .other-section {
   justify-content: space-between ;
-  flex: 5;
+  flex: 2;
   margin-right: 5rem;
   margin-left:  5rem;
   padding-top: 1rem;

@@ -1,19 +1,25 @@
+/* Styles for the about container */
 .about-container {
+  /* Flex container properties */
   display: flex; 
   flex-wrap: wrap; 
   justify-content: space-around; 
   align-items: center; 
-  border:2px #000000;
+  border: 2px #000000;
   padding: 0;
   margin: 0;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 3rem;
 
+  /* Media query for screens with a maximum width of 768px */
   @media only screen and (max-width: 768px) {
-    flex-direction: column; 
+    flex-direction: column; /* Change to a column layout for smaller screens */
   }
 }
+
+/* Styles for the picture container within the about page */
 .about-page .picture-container {
+  /* Flex container properties */
   flex: 2; 
   padding: 0;
   margin: 0;
@@ -21,12 +27,15 @@
   border: 2px #000000;
 }
 
+/* Styles for images within the picture section of the about page */
 .about-page .picture-section img {
-  width: 15rem;
-  height: 30rem;
+  /* Set width, height, and border-radius for images */
+  width: 30rem;
+  height: 50rem;
   border-radius: 8px;
 }
 
+/* Styles for containers with class fun-container and dream-container */
 .fun-container,
 .dream-container {
   padding: 20px;
@@ -34,6 +43,7 @@
   text-align: center;
 }
 
+/* Styles for sections within the about page */
 .about-section, 
 .art-section,
 .helping-section,
@@ -48,13 +58,15 @@
   border: 5px dotted rgb(2, 1, 2);
 }
 
+/* Styles for h1 and h2 within the about page */
 .about-page h1,
 .about-page h2 {
+  /* Text color and text shadow properties */
   color: #000000; 
   text-shadow: 2px 2px #ff008c;
 }
 
-
+/* Styles for bold, strong, and p elements within the about page */
 .about-page b,
 .about-page strong,
 .about-page p {
