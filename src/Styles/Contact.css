@@ -26,20 +26,5 @@
 
 /* Mobile responsiveness for contact page */
 @media screen and (max-width: 600px) {
-  /* Adjustments for smaller screens */
-
-  /* Adjust font size for the contact container */
-  .contact-container {
-    font-size: 2.5rem;
-    margin: 2.5rem;
-    padding: 2.5rem;
-    border: 1px;
-  }
-
-  /* Adjust font size for paragraphs, links, and h3 elements within the contact page */
-  .contact-page p,
-  .contact-page a,
-  .contact-page h3 {
-    font-size: 2.5rem;
-  }
+ 
 }

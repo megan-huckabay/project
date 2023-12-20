@@ -74,31 +74,5 @@ body {
 
 /* Mobile responsiveness for home page */
 @media screen and (max-width: 600px) {
-  /* Adjustments for smaller screens */
 
-  /* Adjust font size for the entire page */
-  body {
-    font-size: 8px;
-    line-height: 0.8px;
-  }
-
-  /* Adjust font size for the home container */
-  .home-container {
-    font-size: 1.5rem;
-  }
-
-  /* Adjust font size for the home section */
-  .home-section {
-    font-size: 1.5em;
-  }
-
-  /* Adjust font size for paragraphs within the home page */
-  .home-page p {
-    font-size: 0.5em;
-  }
-
-  /* Adjust font size for h1 within the home page */
-  .home-page h1 {
-    font-size: 1.5em;
-  }
 }

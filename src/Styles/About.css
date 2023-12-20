@@ -68,53 +68,5 @@
 
 /* Mobile responsiveness for about page */
 @media screen and (max-width: 600px) {
-  /* Adjustments for smaller screens */
 
-  /* Adjust font size for the about container */
-  .about-container {
-    font-size: 1.5rem;
-    margin: 2.5rem;
-    padding: 2.5rem;
-    border: 1px;
-  }
-
-  /* Adjust font size for h1 and h2 within the about page */
-  .about-page h1,
-  .about-page h2 {
-    font-size: 1.5rem;
-  }
-
-  /* Adjust font size for bold, strong, and p elements within the about page */
-  .about-page b,
-  .about-page strong,
-  .about-page p {
-    font-size: 0.8em;
-  }
-
-  /* Adjust width, height, and border-radius for images within the picture section of the about page */
-  .about-page .picture-section img {
-    width: 15em; 
-    height: 25rem; 
-    border-radius: 8px;
-  }
-
-  /* Adjust padding and margin for containers with class fun-container and dream-container */
-  .fun-container,
-  .dream-container {
-    padding: 10px;
-    margin: 10px;
-  }
-
-  /* Adjust padding and margin for sections within the about page */
-  .about-section, 
-  .art-section,
-  .helping-section,
-  .nature-section, 
-  .power-section, 
-  .job-section,
-  .future-section {
-    padding: 10px;
-    margin: 10px;
-    border: 2.5rpx
-  }
 }
