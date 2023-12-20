@@ -26,7 +26,7 @@
   /* Additional styles for smaller screens */
   @media only screen and (max-width: 768px) {
     margin: 0;
-    padding: 0; /* Remove padding for mobile */
+    padding: 0.5; /* Remove padding for mobile */
     flex-direction: column;
   }
 }
@@ -44,6 +44,7 @@
   padding: 2rem;
   margin: 2rem; 
   border: 2px dotted black;
+  display: flex;
   /* Adds rounded corners to the link */
   border-radius: 5rem;
   /* Adds a semi-transparent white background to the link */
@@ -58,6 +59,7 @@
     padding: 1rem; /* Adjust padding for mobile */
     margin: 1rem; /* Adjust margin for mobile */
     width: 100%;
+    flex-direction: column;
   }
 
 }
