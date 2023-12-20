@@ -9,7 +9,6 @@
 
 /* Styles for the unordered list inside the navigation container */
 .navigation-container ul {
-  /* Removes default list styling */
   list-style-type: none;
   display: flex;
   justify-content: center; 
@@ -19,31 +18,26 @@
 
 /* Styles for list items inside the navigation container */
 .navigation-container li {
-  margin: 0.5rem; 
-  padding: 0.5rem;
+  margin: 1rem; 
+  padding: 1rem;
 }
 
 /* Styles for anchor (link) elements inside the navigation container */
 .navigation-container a {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  padding: 2rem;
-  margin: 2rem; 
-  border: 2px dotted black;
+  padding: 3rem;
+  margin: 3rem; 
+  border: 0.5rem solid black;
   display: flex;
-  /* Adds rounded corners to the link */
-  border-radius: 5rem;
-  /* Adds a semi-transparent white background to the link */
+  border-radius: 100%;
   background: rgba(255, 255, 255, 0.5);
-  /* Smooth transition for background color and text color changes */
   transition: background-color 0.3s ease, color 0.3s ease;
-  /* Displays links as inline-block elements */
   display: inline-block;
+  font-size: 4rem;
 }
 
-/* Hover styles for anchor elements inside the navigation container */
 .navigation-container a:hover {
-  /* Background color and text color changes on hover */
   background-color: rgb(118, 236, 240);
   color: white;
 }
@@ -52,14 +46,10 @@
 @media screen and (max-width: 600px) {
   /* Adjustments for smaller screens */
 
-  /* Adjust font size for the entire page */
-  body {
-    font-size: 14px;
-  }
-
   /* Adjust font size for the navigation container */
   .navigation-container {
-    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
   }
 
   /* Adjust padding and margin for the unordered list inside the navigation container */
@@ -70,15 +60,14 @@
 
   /* Adjust padding, margin, and font size for list items inside the navigation container */
   .navigation-container li {
-    margin: 0.2rem;
-    padding: 0.2rem;
-    font-size: 1.5rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
   }
 
   /* Adjust padding, margin, and font size for anchor (link) elements inside the navigation container */
   .navigation-container a {
     padding: 1.5rem;
     margin: 1.5rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }

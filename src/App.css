@@ -6,10 +6,10 @@ body, h1, h2, h3, p {
 
 /* Set common font and background image for the body */
 body {
-  font-family: Arial, sans-serif; /* Choose a common font for better cross-browser consistency */
-  background-image: url('./images/sunset-beach-background.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
-  background-size: cover; /* This ensures the background image covers the entire viewport */
-  background-position: center; /* Center the background image */
+  font-family: Arial, sans-serif; 
+  background-image: url('./images/sunset-beach-background.jpg'); 
+  background-size: cover; 
+  background-position: center; 
 }
 
 /* Center the entire application */
@@ -27,26 +27,23 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 3rem;
   text-align: center;
 }
 
 /* Logo animation */
 .App-logo {
-  /* Logo height and pointer events properties */
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  /* Animation for the logo spin */
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
 @keyframes App-logo-spin {
-  /* Keyframes for logo spin animation */
   from {
     transform: rotate(0deg);
   }
@@ -57,14 +54,13 @@ body {
 
 /* Container styling */
 .app-container {
-  /* Text alignment property */
   text-align: center;
 }
 
 /* Heading 1 styling */
 .app-container h1 {
   /* Text color, text shadow, font family, font size, and margin properties */
-  color: #000000; /* Turquoise color */
+  color: #000000; 
   text-shadow: 8px 4px 15px #006eff;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20rem;
@@ -75,14 +71,9 @@ body {
 @media screen and (max-width: 600px) {
   /* Adjustments for smaller screens */
 
-  /* Set a smaller font size for the body */
-  body {
-    font-size: 14px;
-  }
-
   /* Adjust the header font size */
   .header {
-    font-size: calc(10px + 1.5vmin);
+    font-size: 1.5rem;
   }
 
   /* Adjust the logo height for smaller screens */

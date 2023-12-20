@@ -1,20 +1,18 @@
 /* Styles for the about container */
 .about-container {
-  /* Flex container properties */
   display: flex; 
   flex-wrap: wrap; 
   justify-content: space-around; 
   align-items: center; 
   border: 2px #000000;
-  padding: 0;
-  margin: 0;
+  padding: 5rem;
+  margin: 5rem;
   text-align: center;
   font-size: 3rem;
 }
 
 /* Styles for the picture container within the about page */
 .about-page .picture-container {
-  /* Flex container properties */
   flex: 2; 
   padding: 0;
   margin: 0;
@@ -24,7 +22,6 @@
 
 /* Styles for images within the picture section of the about page */
 .about-page .picture-section img {
-  /* Set width, height, and border-radius for images */
   width: 30rem;
   height: 50rem;
   border-radius: 8px;
@@ -56,9 +53,9 @@
 /* Styles for h1 and h2 within the about page */
 .about-page h1,
 .about-page h2 {
-  /* Text color and text shadow properties */
   color: #000000; 
   text-shadow: 2px 2px #ff008c;
+  font-size: 3rem;
 }
 
 /* Styles for bold, strong, and p elements within the about page */
@@ -73,20 +70,18 @@
 @media screen and (max-width: 600px) {
   /* Adjustments for smaller screens */
 
-  /* Adjust font size for the entire page */
-  body {
-    font-size: 14px;
-  }
-
   /* Adjust font size for the about container */
   .about-container {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin: 2.5rem;
+    padding: 2.5rem;
+    border: 1px;
   }
 
   /* Adjust font size for h1 and h2 within the about page */
   .about-page h1,
   .about-page h2 {
-    font-size: 2em;
+    font-size: 1.5rem;
   }
 
   /* Adjust font size for bold, strong, and p elements within the about page */
@@ -98,8 +93,8 @@
 
   /* Adjust width, height, and border-radius for images within the picture section of the about page */
   .about-page .picture-section img {
-    width: 100%; /* Make images fill the width of the container */
-    height: auto; /* Maintain aspect ratio */
+    width: 15em; 
+    height: 25rem; 
     border-radius: 8px;
   }
 
@@ -120,5 +115,6 @@
   .future-section {
     padding: 10px;
     margin: 10px;
+    border: 2.5rpx
   }
 }
