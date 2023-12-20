@@ -7,10 +7,6 @@
   text-align: center;
   font-size: 3rem;
   font-weight: bold;
-/* Adjustments for smaller screens can be added here */
-    @media only screen and (max-width: 768px) {
-      padding: 10px;
-    }
   }
 
 .nurse-container{
@@ -69,4 +65,41 @@
 
 .experience-page strong{
   color: purple;
+}
+
+/* Mobile responsiveness for experience page */
+@media screen and (max-width: 600px) {
+  /* Adjustments for smaller screens */
+
+  /* Adjust font size for the entire page */
+  body {
+    font-size: 14px;
+  }
+
+  /* Adjust font size for the experience container */
+  .experience-container {
+    font-size: 2rem;
+  }
+
+  /* Adjust font size for h1 and h2 within the experience page */
+  .experience-page h1,
+  .experience-page h2 {
+    font-size: 2em;
+  }
+
+  /* Adjust font size for p and strong elements within the experience page */
+  .experience-page p,
+  .experience-page strong {
+    font-size: 0.8em;
+  }
+
+  /* Adjust padding, margin, and flex properties for containers */
+  .nurse-container,
+  .youth-container,
+  .retail-container,
+  .food-container {
+    padding: 10px;
+    margin: 10px;
+    flex: 1; /* Adjust the flex property for better responsiveness */
+  }
 }

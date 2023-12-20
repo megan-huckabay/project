@@ -10,11 +10,6 @@
   margin: 0;
   text-align: center;
   font-size: 3rem;
-
-  /* Media query for screens with a maximum width of 768px */
-  @media only screen and (max-width: 768px) {
-    flex-direction: column; /* Change to a column layout for smaller screens */
-  }
 }
 
 /* Styles for the picture container within the about page */
@@ -72,4 +67,58 @@
 .about-page p {
   color: #000000;
   font-weight: bold;
+}
+
+/* Mobile responsiveness for about page */
+@media screen and (max-width: 600px) {
+  /* Adjustments for smaller screens */
+
+  /* Adjust font size for the entire page */
+  body {
+    font-size: 14px;
+  }
+
+  /* Adjust font size for the about container */
+  .about-container {
+    font-size: 2rem;
+  }
+
+  /* Adjust font size for h1 and h2 within the about page */
+  .about-page h1,
+  .about-page h2 {
+    font-size: 2em;
+  }
+
+  /* Adjust font size for bold, strong, and p elements within the about page */
+  .about-page b,
+  .about-page strong,
+  .about-page p {
+    font-size: 0.8em;
+  }
+
+  /* Adjust width, height, and border-radius for images within the picture section of the about page */
+  .about-page .picture-section img {
+    width: 100%; /* Make images fill the width of the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+  }
+
+  /* Adjust padding and margin for containers with class fun-container and dream-container */
+  .fun-container,
+  .dream-container {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  /* Adjust padding and margin for sections within the about page */
+  .about-section, 
+  .art-section,
+  .helping-section,
+  .nature-section, 
+  .power-section, 
+  .job-section,
+  .future-section {
+    padding: 10px;
+    margin: 10px;
+  }
 }

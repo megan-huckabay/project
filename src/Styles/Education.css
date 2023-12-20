@@ -1,12 +1,13 @@
-.education-page p, 
-.education-page h2, 
+.education-page p,
+.education-page h2,
 .education-page a {
   color: black;
   font-weight: bold;
 }
 
 .education-page h1 {
-  color: #000000; /* Turquoise color */
+  color: #000000;
+  /* Turquoise color */
   text-shadow: 8px 4px 15px #006eff;
   font-family: 'Georgia', 'Times New Roman', Times, serif;
   font-size: 4em;
@@ -17,20 +18,15 @@
   text-align: center;
 }
 
-.education-container { 
+.education-container {
   margin: 1rem;
   padding: 1rem;
   text-align: center;
   font-size: 3rem;
-/* Media query for screens with a maximum width of 768px (Mobile) */
-@media only screen and (max-width: 768px) {
-    margin: 0.5rem;
-    padding: 0.5rem;
-    font-size: 1.5rem; /* Adjusted font size for mobile */
-  }
 }
-.school-section{
-  justify-content:center ;
+
+.school-section {
+  justify-content: center;
   flex: 2;
   padding: 3px;
   margin: 3px;
@@ -38,8 +34,10 @@
   font-size: 3rem;
   background: rgba(255, 255, 255, 0.5);
 }
+
 .picture-container {
-  flex: 2; /* Allow the container to grow and shrink */
+  flex: 2;
+  /* Allow the container to grow and shrink */
   padding: 1em;
   margin: 1em;
   justify-content: space-between;
@@ -53,11 +51,11 @@
 }
 
 .frontend-section,
-.backend-section{
-  justify-content: space-between ;
+.backend-section {
+  justify-content: space-between;
   flex: 2;
   margin-right: 5rem;
-  margin-left:  5rem;
+  margin-left: 5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   border: 5px solid #000000;
@@ -75,10 +73,10 @@
 
 .tech-section,
 .other-section {
-  justify-content: space-between ;
+  justify-content: space-between;
   flex: 2;
   margin-right: 5rem;
-  margin-left:  5rem;
+  margin-left: 5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   border: 5px solid #000000;
@@ -86,12 +84,11 @@
 }
 
 .repo2-section,
-.repo1-section{
-  justify-content: space-between ;
+.repo1-section {
+  justify-content: space-between;
   flex: 2;
   padding: 5px;
   margin: 5px;
   border: 5px solid #000000;
   background: rgba(255, 255, 255, 0.5);
 }
- 

@@ -71,11 +71,28 @@ body {
   margin: 5px 0 0; 
 }
 
-/* Media query adjustments for smaller screens */
-@media only screen and (max-width: 768px) {
-  /* Example adjustments for smaller screens can be added here */
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+  /* Adjustments for smaller screens */
+
+  /* Set a smaller font size for the body */
+  body {
+    font-size: 14px;
+  }
+
+  /* Adjust the header font size */
+  .header {
+    font-size: calc(10px + 1.5vmin);
+  }
+
+  /* Adjust the logo height for smaller screens */
+  .App-logo {
+    height: 20vmin;
+  }
+
+  /* Adjust the heading 1 font size for smaller screens */
   .app-container h1 {
-    /* Adjusted font size for smaller screens */
-    font-size: 3em;
+    font-size: 10rem;
   }
 }
+
