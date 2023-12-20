@@ -9,8 +9,8 @@
   /* Media query for screens with a maximum width of 768px and adjust for smaller screens */
   @media only screen and (max-width: 768px) {
     font-size: 0.5rem; /* Decrease font size */
-    margin: 0.5rem; /* Reduce margin */
-    padding: 0.5rem; /* Reduce padding */
+    margin: 0; /* Reduce margin */
+    padding: 0; /* Reduce padding */
   }
 }
 
@@ -25,8 +25,8 @@
 
   /* Additional styles for smaller screens */
   @media only screen and (max-width: 768px) {
-    margin: 0.5rem;
-    padding: 0.5rem; /* Remove padding for mobile */
+    margin: 0;
+    padding: 0; /* Remove padding for mobile */
     flex-direction: column;
   }
 }
@@ -57,6 +57,7 @@
   @media only screen and (max-width: 768px) {
     padding: 1rem; /* Adjust padding for mobile */
     margin: 1rem; /* Adjust margin for mobile */
+    width: 100%;
   }
 
 }
