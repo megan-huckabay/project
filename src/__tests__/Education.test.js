@@ -32,3 +32,37 @@ test('matches snapshot', () => {
   const { container } = render(<Education />);
   expect(container).toMatchSnapshot();
 });
+
+test('renders specific content in the Education component', () => {
+  render(<Education />);
+  const specificContent = screen.getByText(/JavaScript Libraries/i);
+  expect(specificContent).toBeInTheDocument();
+});
+
+test('has a specific structure in the Education component', () => {
+  const { container } = render(<Education />);
+  const educationContainer = container.querySelector('.education-container');
+  expect(educationContainer).toBeInTheDocument();
+
+  const schoolSection = container.querySelector('.school-section');
+  expect(schoolSection).toBeInTheDocument();
+  expect(schoolSection.children.length).toBeGreaterThan(0);
+
+});
+
+test('applies specific CSS classes in the Education component', () => {
+  const { container } = render(<Education />);
+  const educationContainer = container.querySelector('.education-container');
+  expect(educationContainer).toHaveClass('education-page');
+
+  const schoolSection = container.querySelector('.school-section');
+  expect(schoolSection).toHaveClass('school-section');
+
+});
+
+test('renders specific HTML elements in the Education component', () => {
+  const { container } = render(<Education />);
+  const headingElement = container.querySelector('h1');
+  expect(headingElement).toBeInTheDocument();
+  expect(headingElement.textContent).toBe('Education');
+});

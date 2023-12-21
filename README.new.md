@@ -13,7 +13,11 @@ This React app serves as the portfolio for Megan Huckabay, showcasing my skills,
 
 ## Pictures
 
-Include pictures of myself and apicture of my certificate from Bloomtech
+Include pictures of myself and a picture of my certificate from Bloomtech.
+
+## GitHub Repositories
+
+Includes 2 Projects I contributed to while at BLoomtech.
 
 ## Technologies Used
 
@@ -22,12 +26,17 @@ Include pictures of myself and apicture of my certificate from Bloomtech
 - CSS3
 - JavaScript
 
+## Notice 
+
+- `Please do not change anything or edit without contacting me.`
+
 ## Getting Started
 
 To run this project locally, follow these steps:
 
 1. Install dependencies: `npm install`
 2. Run the development server: `npm start`
+3. To run test: `npm run test`
 
 ## Contact
 

@@ -8,11 +8,7 @@
   font-weight: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.contact-page p {
-  color: #000000;
-  font-size: 5rem;
-}
-
+.contact-page p,
 .contact-page a {
   color: rgb(0, 0, 0); 
   font-size: 5rem;

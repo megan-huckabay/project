@@ -8,10 +8,8 @@ import Experience from '../Components/Experience';
 test('renders the Experience component and checks styles', () => {
   const { container } = render(<Experience />);
 
-  // Take a snapshot of the whole component
   expect(container).toMatchSnapshot();
 
-  // You can also take individual snapshots for each section
   const foodContainer = container.querySelector('.food-container');
   expect(foodContainer).toMatchSnapshot();
 
@@ -23,4 +21,35 @@ test('renders the Experience component and checks styles', () => {
 
   const youthContainer = container.querySelector('.youth-container');
   expect(youthContainer).toMatchSnapshot();
+});
+
+test('renders specific content in the Experience component', () => {
+  const { getByText } = render(<Experience />);
+  const foodSection = getByText(/Little Caesars Arroyo Grande, CA. 2010-2011/i);
+  expect(foodSection).toBeInTheDocument();
+
+  const nurseSection = getByText(/Private Clients\/Family in Pismo Beach, CA. | Porterville, CA. | Tipton, CA./i);
+  expect(nurseSection).toBeInTheDocument();
+
+});
+
+test('has a specific structure in the Experience component', () => {
+  const { container } = render(<Experience />);
+  const experienceContainer = container.querySelector('.experience-container');
+  expect(experienceContainer).toBeInTheDocument();
+
+  const foodContainer = container.querySelector('.food-container');
+  expect(foodContainer).toBeInTheDocument();
+  expect(foodContainer.children.length).toBeGreaterThan(0);
+
+});
+
+test('applies specific CSS classes in the Experience component', () => {
+  const { container } = render(<Experience />);
+  const experienceContainer = container.querySelector('.experience-container');
+  expect(experienceContainer).toHaveClass('experience-page');
+
+  const foodContainer = container.querySelector('.food-container');
+  expect(foodContainer).toHaveClass('food-container');
+
 });
