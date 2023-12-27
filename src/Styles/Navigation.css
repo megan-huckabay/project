@@ -26,19 +26,19 @@
 .navigation-container a {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  padding: 3rem;
-  margin: 3rem; 
-  border: 0.5rem solid black;
+  padding: 2mm;
+  margin: 4mm; 
+  border: 0.5rem solid rgba(0, 0, 0, 0.692);
   display: flex;
-  border-radius: 100%;
-  background: rgba(255, 255, 255, 0.5);
+  border-radius: 1rem;
+  background: rgba(216, 217, 255, 0.5);
   transition: background-color 0.3s ease, color 0.3s ease;
   display: inline-block;
-  font-size: 4rem;
+  font-size: 25mm;
 }
 
 .navigation-container a:hover {
-  background-color: #76ecf0;
+  background-color: #9ceaf88c;
   color: white;
 }
 

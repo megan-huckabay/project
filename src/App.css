@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif; 
   background-image: url('./images/sunset-beach-background.jpg'); 
   background-size: cover; 
-  background-position: center; 
+  background-position: center;
 }
 
 /* Center the entire application */
@@ -61,10 +61,11 @@ body {
 .app-container h1 {
   /* Text color, text shadow, font family, font size, and margin properties */
   color: #000000; 
-  text-shadow: 8px 4px 15px #006eff;
+  text-shadow: 8px 4px 15px #ffffff;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 20rem;
-  margin: 5px 0 0; 
+  font-size: 90mm;
+  margin: 2px; 
+  padding: 2px;
 }
 
 

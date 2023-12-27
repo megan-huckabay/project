@@ -1,25 +1,37 @@
-.experience-container {
+.experience-container1,
+.experience-container2 {
   display: flex;
   justify-content: space-around;
-  margin: 0;
-  padding: 0;
-  border: 5px solid black; 
-  text-align: center;
-  font-size: 3rem;
-  font-weight: bold;
+  margin: 5mm;
+  padding: 5mm;
   }
 
 .nurse-container,
-.youth-container,
-.retail-container,
 .food-container{
   justify-content:center ;
   flex: 2;
-  padding: 5px;
-  margin: 5px;
-  border: 5px dotted rgb(0, 0, 0);
+  padding: 25mm;
+  margin: 30mm;
+  border:3mm solid rgb(0, 0, 0);
+  border-radius: 10mm;
   text-align: center;
   background: rgba(255, 255, 255, 0.5);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.youth-container,
+.retail-container{
+  justify-content:center ;
+  flex: 2;
+  padding: 25mm;
+  margin: 30mm;
+  border:3mm solid rgb(0, 0, 0);
+  border-radius: 10mm;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .experience-page h1{
