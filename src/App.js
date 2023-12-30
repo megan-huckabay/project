@@ -6,6 +6,7 @@ import About from './Components/About';
 import Education from './Components/Education'; 
 import Navigation from './Components/Navigation';  
 import Experience from './Components/Experience';
+import HireMe from './Components/HireMe';
 import Contact from './Components/Contact';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Education" element={<Education />} />
           <Route path="/Experience" element={<Experience />} />
+          <Route path="/HireMe" element={<HireMe    />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
 

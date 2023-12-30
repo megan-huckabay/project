@@ -1,0 +1,139 @@
+/* HireMe.css */
+@media only screen and (min-width: 768px) {
+/* General Styles */
+.hire-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Section Styles */
+.section {
+    margin: 20px;
+    text-align: center;
+}
+
+/* Container Styles */
+.service-container,
+.why-container,
+.price-container,
+.hire-me-section {
+    justify-content: center;
+    flex: 2;
+    flex-direction: row;
+    padding: 25mm;
+    margin: 30mm;
+    border: 3mm solid rgb(0, 0, 0);
+    border-radius: 10mm;
+    text-align: center;
+    background: rgba(206, 175, 175, 0.199);
+    font-size: 3rem;
+    font-weight: bold;
+}
+.specs-section,
+.greetings-section,
+.services-section,
+.pricing-section,
+.additional-services-section,
+.why-choose-me-section,
+.bottom-section,
+.hire-me-section {
+    justify-content: space-between;
+    flex: 2;
+    flex-direction: row;
+    padding: 25mm;
+    margin: 30mm;
+    border: 3mm solid rgb(0, 0, 0);
+    border-radius: 10mm;
+    text-align: center;
+    background: rgba(255, 251, 251, 0.582);
+    font-size: 3rem;
+    font-weight: bold;   
+}
+.specs-section h2,
+.greetings-section h1,
+.services-section h2,
+.pricing-section h2,
+.additional-services-section h2,
+.why-choose-me-section h2 {
+    color: #000000;
+    text-shadow: 3mm 1mm rgb(248, 80, 80);
+    font-size: 40mm;
+}
+
+.hire-me-container p {
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+}
+}
+/* Responsive Styles */
+@media (max-width: 480px) {
+    /* Add responsive styles as needed */
+    .hire-me-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* Section Styles */
+    .section {
+        margin: 20px;
+        text-align: center;
+    }
+    
+    /* Container Styles */
+    .service-container,
+    .why-container,
+    .price-container,
+    .hire-me-section {
+        justify-content: center;
+        flex: 2;
+        flex-direction: row;
+        padding: 12.5mm;
+        margin: 15mm;
+        border: 1.5mm solid rgb(0, 0, 0);
+        border-radius: 5mm;
+        text-align: center;
+        background: rgba(206, 175, 175, 0.199);
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .specs-section,
+    .greetings-section,
+    .services-section,
+    .pricing-section,
+    .additional-services-section,
+    .why-choose-me-section,
+    .bottom-section,
+    .hire-me-section {
+        justify-content: space-between;
+        flex: 2;
+        flex-direction: row;
+        padding: 12.5mm;
+        margin: 15mm;
+        border: 1.5mm solid rgb(0, 0, 0);
+        border-radius: 5mm;
+        text-align: center;
+        background: rgba(255, 251, 251, 0.582);
+        font-size: 1.5rem;
+        font-weight: bold;   
+    }
+    .specs-section h2,
+    .greetings-section h1,
+    .services-section h2,
+    .pricing-section h2,
+    .additional-services-section h2,
+    .why-choose-me-section h2 {
+        color: #000000;
+        text-shadow: 1.5mm 0.5mm rgb(248, 80, 80);
+        font-size: 20mm;
+    }
+    
+    .hire-me-container p {
+        color: black;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+}
+

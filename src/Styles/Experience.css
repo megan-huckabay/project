@@ -1,3 +1,4 @@
+@media only screen and (min-width: 768px) {
 .experience-container1,
 .experience-container2 {
   display: flex;
@@ -47,5 +48,58 @@
 .experience-page p{
   color: #000000
 }
+}
 
+/* Responsive Styles */
+@media (max-width: 480px) {
+  /* Add responsive styles as needed */
+.experience-container1,
+.experience-container2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 2.5mm;
+  padding: 2.5mm;
+  }
 
+.nurse-container,
+.food-container{
+  justify-content:center ;
+  flex: 2;
+  padding: 17.5mm;
+  margin: 15mm;
+  border: 1.5mm solid rgb(0, 0, 0);
+  border-radius: 5mm;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.youth-container,
+.retail-container{
+  justify-content:center ;
+  flex: 2;
+  padding: 17.5mm;
+  margin: 15mm;
+  border: 1.5mm solid rgb(0, 0, 0);
+  border-radius: 2.5mm;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.experience-page h1{
+  color: black;
+  text-align: center;
+}
+
+.experience-page h2{
+  color: #000000;
+  
+}
+
+.experience-page p{
+  color: #000000
+}
+}

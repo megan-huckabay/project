@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-**PLEASE SEE <u>'README.new.md'</u> FOR PROJECT README**
+**PLEASE SEE 'README.new.md' FOR PROJECT README**
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

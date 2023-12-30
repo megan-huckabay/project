@@ -1,4 +1,4 @@
-
+@media only screen and (min-width: 768px) {
 .education-container {
   margin: 1rem;
   padding: 1rem;
@@ -85,4 +85,94 @@
 .education-page ul {
   text-align: center;
 }
-
+}
+/* Responsive Styles */
+@media (max-width: 480px) {
+  /* Add responsive styles as needed */
+  .education-container {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .school-section {
+    justify-content: center;
+    flex: 2;
+    padding: 1.5px;
+    margin: 1.5px;
+    border: 1.5mm solid #000000e7;
+    border-radius: 5mm;
+    font-size: 1.5rem;
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
+  .picture-container {
+    flex: 2;
+    padding: 0.5em;
+    margin: 0.5em;
+    justify-content: space-between;
+    border: 1px #000000;
+  }
+  
+  .picture-section img {
+    width:75rem;
+    height: 50rem;
+    border-radius: 5mm;
+  }
+  
+  .frontend-section,
+  .backend-section,
+  .tech-section,
+  .other-section{
+    justify-content: space-between;
+    flex: 2;
+    margin: 25mm;
+    padding: 10mm;
+    font-size: 1.5rem;
+    border: 1.5mm solid #000000;
+    border-radius: 5mm;
+    background: rgba(255, 255, 255, 0.5)
+  }
+  
+  .repo2-section,
+  .repo1-section {
+    justify-content: space-between;
+    flex: 2;
+    margin: 2.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: 1.5mm solid #000000;
+    border-radius: 5mm;
+    background: rgba(255, 255, 255, 0.5)
+  }
+  
+  .github-container,
+  .skills-container,
+  .skills2-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .education-page p,
+  .education-page h2,
+  .education-page a {
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .education-page h1 {
+    color: #000000;
+    text-shadow: 4px 2px 7.5px #ffffff;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 2em;
+  }
+  
+  .education-page li,
+  .education-page ul {
+    text-align: center;
+  }
+}

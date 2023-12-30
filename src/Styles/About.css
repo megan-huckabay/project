@@ -1,4 +1,5 @@
 /* Styles for the about container */
+@media only screen and (min-width: 768px) {
 .about-container {
   display: flex; 
   flex-wrap: wrap; 
@@ -69,4 +70,77 @@
   color: #000000;
   font-weight: bold;
 }
-
+}
+/* Responsive Styles */
+@media (max-width: 480px) {
+  .about-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    border: 1.5mm #000000;
+    padding: 2.5rem;
+    margin: 2.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  
+  /* Styles for the picture container within the about page */
+  .about-page .picture-container {
+    flex: 2; 
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+    border: 1.5mm #000000;
+  }
+  
+  /* Styles for images within the picture section of the about page */
+  .about-page .picture-section img {
+    width: 15rem;
+    height: 25rem;
+    border-radius: 8px;
+  }
+  
+  /* Styles for containers with class fun-container and dream-container */
+  .fun-container,
+  .dream-container {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  /* Styles for sections within the about page */
+  .about-section, 
+  .art-section,
+  .helping-section,
+  .nature-section, 
+  .power-section, 
+  .job-section,
+  .future-section {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1.5mm solid rgb(0, 0, 0);
+    border-radius: 5mm;
+  }
+  
+  /* Styles for h1 and h2 within the about page */
+  .about-page h1 {
+    color: #000000; 
+    text-shadow: 1px 1px #0084ff;
+    font-size: 3rem;
+  }
+  
+  .about-page h2 {
+    color: #000000; 
+    text-shadow: 1px 1px #00ffdd;
+    font-size: 2.5rem;
+  }
+  /* Styles for bold, strong, and p elements within the about page */
+  .about-page b,
+  .about-page strong,
+  .about-page p {
+    color: #000000;
+    font-weight: bold;
+  }
+}
