@@ -68,5 +68,68 @@ body {
   padding: 2px;
 }
 
-
+@media (max-width: 767px) {
+  body {
+    font-family: Arial, sans-serif; 
+    background-image: url('./images/sunset-beach-background.jpg'); 
+    background-size: cover; 
+    background-position: center;
+  }
+  
+  /* Center the entire application */
+  .App {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+  }
+  
+  /* Header styling */
+  .header {
+    /* Flex direction, alignment, and font properties */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Logo animation */
+  .App-logo {
+    height: 20vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }  
+  }
+  
+  /* Container styling */
+  .app-container {
+    text-align: center;
+  }
+  
+  /* Heading 1 styling */
+  .app-container h1 {
+    /* Text color, text shadow, font family, font size, and margin properties */
+    color: #000000; 
+    text-shadow: 4px 2px 7.5px #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45mm;
+    margin: 1px; 
+    padding: 1px;
+  }
+}
 
