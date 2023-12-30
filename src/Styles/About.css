@@ -78,8 +78,8 @@
     flex-wrap: wrap; 
     justify-content: space-around; 
     border: 1.5mm #000000;
-    padding: 2.5rem;
-    margin: 2.5rem;
+    padding: auto;
+    margin: auto;
     text-align: center;
     font-size: 1.7rem;
   }

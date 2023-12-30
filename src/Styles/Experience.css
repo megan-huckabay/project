@@ -57,8 +57,8 @@
 .experience-container2 {
   display: flex;
   justify-content: space-around;
-  margin: 2.5mm;
-  padding: 2.5mm;
+  margin: auto;
+  padding: auto;
   }
 
 .nurse-container,

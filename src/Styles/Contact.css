@@ -40,8 +40,8 @@
   .contact-container {
     border: 1.5mm solid rgba(3, 3, 5, 0.507);
     border-radius: 5mm;
-    margin: 1.5mm;
-    padding: 1.5rem;
+    margin: auto;
+    padding: auto;
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;

@@ -48,8 +48,8 @@
 @media (max-width: 767px) {
   /* Add responsive styles as needed */
   .navigation-container {
-    padding: 0.5rem;
-    margin: 0.5rem;
+    padding: auto;
+    margin: auto;
     text-align: center; 
     font-size: 2.5rem;
     font-weight: bold;
