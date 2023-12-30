@@ -78,8 +78,8 @@
     flex-wrap: wrap; 
     justify-content: space-around; 
     border: 1.5mm #000000;
-    padding: auto;
-    margin: auto;
+    margin: 0;
+    padding: 1rem;
     text-align: center;
     font-size: 1.7rem;
   }
@@ -87,8 +87,8 @@
   /* Styles for the picture container within the about page */
   .about-page .picture-container {
     flex: 2; 
-    padding: 0;
     margin: 0;
+    padding: 1rem;
     justify-content: space-evenly;
     border: 1.5mm #000000;
   }
@@ -103,8 +103,8 @@
   /* Styles for containers with class fun-container and dream-container */
   .fun-container,
   .dream-container {
-    padding: 10px;
-    margin: 10px;
+    margin: 0;
+    padding: 1rem;
     text-align: center;
   }
   
@@ -116,8 +116,8 @@
   .power-section, 
   .job-section,
   .future-section {
-    padding: 10px;
-    margin: 10px;
+    margin: 0;
+    padding: 1rem;
     text-align: center;
     background: rgba(255, 255, 255, 0.5);
     border: 1.5mm solid rgb(0, 0, 0);
