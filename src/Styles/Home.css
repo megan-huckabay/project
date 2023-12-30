@@ -64,7 +64,7 @@ body {
 }
 
 /* Responsive Styles */
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   /* Add responsive styles as needed */
   body {
     font-size: 8px; 

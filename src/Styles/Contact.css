@@ -35,7 +35,7 @@
 }
 
 /* Responsive Styles */
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   /* Add responsive styles as needed */
   .contact-container {
     border: 1.5mm solid rgba(3, 3, 5, 0.507);
