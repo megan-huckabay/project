@@ -59,17 +59,13 @@ const HireMePage = () => {
                 <p>
                     With a year of experience and a track record of successful projects.<br />
                     Client-Centric Approach: Your satisfaction is my priority, and I am committed to delivering solutions that exceed expectations.<br />
-                    Transparent Pricing: Clear and competitive pricing with room for negotiation based on project specifics.
-                </p>
-            </div>
-
-            <div className="bottom-section">
-                <p>
+                    Transparent Pricing: Clear and competitive pricing with room for negotiation based on project specifics.<br />
+                
                     Embark on a journey towards a digital future that reflects your unique identity or empowers your business.<br />
                     Let's collaborate to turn your ideas into immersive and functional web experiences.
                 </p>
                 <p>For inquiries and consultations, please contact me.</p>
-                <p>I am eager to discuss how we can bring your project to fruition. Contact me at  <a href="mailto:techchick2023@gmail.com">techchick2023@gmail.com</a> to start the conversation.</p>
+                <p>I am eager to discuss how we can bring your project to fruition.<br /> Contact me at  <a href="mailto:techchick2023@gmail.com">techchick2023@gmail.com</a> to start the conversation.</p>
             </div>
         </div>
         </div>

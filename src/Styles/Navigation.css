@@ -1,10 +1,10 @@
 /* Styles for larger screens (min-width: 768px) */
 @media only screen and (min-width: 768px) {
   .navigation-container {
-    padding: 1rem;
-    margin: 1rem;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    font-size: 5rem;
+    font-size: 1rem;
     font-weight: bold;
   }
 
@@ -12,32 +12,31 @@
     list-style-type: none;
     display: flex;
     justify-content: center;
-    padding: 1rem;
-    margin: 1rem;
+    margin: 5px;
+    padding: 5px;
   }
 
   .navigation-container li {
-    margin: 1rem;
-    padding: 1rem;
+    margin: 5px;
+    padding: 5px;
   }
 
   .navigation-container a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    padding: 2mm;
-    margin: 4mm;
-    border: 0.5rem solid rgba(0, 0, 0, 0.692);
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid black;
+    border-radius: 5px;
     display: flex;
-    border-radius: 1rem;
-    background: rgba(216, 217, 255, 0.5);
-    transition: background-color 0.3s ease, color 0.3s ease;
     display: inline-block;
-    font-size: 25mm;
+    font-size: 2rem;
   }
 
   .navigation-container a:hover {
     background-color: #9ceaf88c;
     color: white;
+    border: 1px solid black;
   }
 }
 
@@ -47,7 +46,7 @@
     padding: auto;
     margin: auto;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1rem;
     font-weight: bold;
   }
 

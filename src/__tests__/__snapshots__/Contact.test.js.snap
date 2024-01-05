@@ -5,12 +5,12 @@ exports[`matches snapshot 1`] = `
   <div
     class="contact-container contact-page"
   >
-    <h3>
-      Contact Information
-    </h3>
     <div
       class="contact-section"
     >
+      <h3>
+        Contact Information
+      </h3>
       <p>
         main-email: 
         <a

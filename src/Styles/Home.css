@@ -21,8 +21,8 @@ body {
   display: flex; 
   flex-wrap: wrap; 
   justify-content: space-around; 
-  padding: 0;
-  margin: 0;
+  margin: 15px; 
+  padding: 5px;
   text-align: center;
   font-size: 3rem;
 }
@@ -30,16 +30,16 @@ body {
 /* Styles for the home section */
 .home-section {
   /* Font size, font family, text alignment, font weight, border, white space, and background properties */
-  font-size: 1.8em; 
+  font-size: 1.8rem; 
   font-family: 'Libre Baskerville', serif;
   text-align: center;
   font-weight: bold;
-  border: 3mm solid rgb(0, 0, 0);
-  border-radius: 10mm;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 1px;
   white-space: nowrap;
   background: rgba(255, 255, 255, 0.349);
-  padding: 1rem;
-  margin: 1rem;
+  margin: 15px; 
+  padding: 5px;
 }
 
 /* Style the <strong> tag inside the .home-section */
@@ -49,17 +49,14 @@ body {
 
 /* Styles for paragraphs within the home page */
 .home-section p {
-  /* Font size, text color, and text shadow properties */
-  font-size: 1em; 
   color: #000000;
-  text-shadow: 2px 2px #ffffff;
+  text-shadow: 2px 2px #f0f0f0;
 }
 
 /* Styles for h1 within the home page */
 .home-section h1 {
   color: #000000;
-  text-shadow: 2px 4px #ffffff; 
-  font-size: 3em;
+  text-shadow: 2px 4px #f5f5f5; 
 }
 }
 

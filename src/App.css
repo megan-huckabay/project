@@ -62,9 +62,9 @@ body {
   color: #000000; 
   text-shadow: 8px 4px 15px #ffffff;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 90mm;
-  margin: 2px; 
-  padding: 2px;
+  font-size: 5rem;
+  margin: 15px; 
+  padding: 5px;
 }
 
 @media (max-width: 767px) {
@@ -125,9 +125,7 @@ body {
     color: #000000; 
     text-shadow: 4px 2px 7.5px #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 45mm;
-    margin: 1px; 
-    padding: 1px;
+    font-size: 3rem;
   }
 }
 
