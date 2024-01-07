@@ -1,10 +1,7 @@
 /* Styles for larger screens (min-width: 768px) */
 @media only screen and (min-width: 768px) {
   .navigation-container {
-    margin: 0;
-    padding: 0;
     text-align: center;
-    font-size: 1rem;
     font-weight: bold;
   }
 
@@ -12,25 +9,25 @@
     list-style-type: none;
     display: flex;
     justify-content: center;
-    margin: 5px;
+    margin: 50px;
     padding: 5px;
   }
 
   .navigation-container li {
-    margin: 5px;
+    margin: 50px;
     padding: 5px;
   }
 
   .navigation-container a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    margin: 1px;
-    padding: 1px;
-    border: 1px solid black;
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid black;
     border-radius: 5px;
     display: flex;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 5em;
   }
 
   .navigation-container a:hover {

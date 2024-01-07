@@ -8,6 +8,7 @@
     margin: 15px;
     padding: 5px;
     text-align: center;
+    font-size: 5em;
   }
 
   /* Styles for the picture container within the about page */
@@ -21,8 +22,8 @@
 
   /* Styles for images within the picture section of the about page */
   .about-page .picture-section img {
-    width: 15rem;
-    height: 25rem;
+    width: 45rem;
+    height: 65rem;
     border-radius: 8px;
   }
 
@@ -54,22 +55,20 @@
   .about-page h1 {
     color: #000000;
     text-shadow: 2px 2px #f3f3f3;
-    font-size: 4rem;
+    font-size: 3em;
   }
 
   .about-page h2 {
     color: #000000;
     text-shadow: 2px 2px #ffffff;
-    font-size: 2rem;
+    font-size: 2em;
   }
 
   /* Styles for bold, strong, and p elements within the about page */
-  .about-page b,
-  .about-page strong,
-  .about-page p {
+  .about-page p{
     color: #000000;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1em;
   }
 }
 

@@ -24,8 +24,8 @@
   }
 
   .picture-section img {
-    width: 750px;
-    height: 500px;
+    width: 125em;
+    height: 75em;
     border-radius: 8px;
   }
 
@@ -61,7 +61,11 @@
     margin: 15px;
     padding: 5px;
   }
-    .education-page p,
+    .education-page p{
+      color: black;
+      font-weight: bold;
+      font-size: 5em;
+    }
     .education-page a {
       color: black;
       font-weight: bold;
@@ -69,20 +73,20 @@
     }
 
     .education-page h3 {
-      font-size: 2rem;
+      font-size: 7em;
     }
     .education-page h1,
     .education-page h2 {
       color: #000000;
       text-shadow: 8px 4px 15px #ffffff;
       font-family: 'Georgia', 'Times New Roman', Times, serif;
-      font-size: 3rem;
+      font-size: 5em;
     }
 
     .education-page li,
     .education-page ul {
       text-align: center;
-      font-size: 1rem;
+      font-size: 5em;
     }
   }
 

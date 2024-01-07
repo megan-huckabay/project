@@ -56,12 +56,12 @@
   .hire-me-container h1,
   .hire-me-container h2 {
     color: #000000;
-    font-size: 2rem;
+    font-size: 7em;
   }
 
   .hire-me-container p {
     color: black;
-    font-size: 1rem;
+    font-size: 5em;
   }
 }
 

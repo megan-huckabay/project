@@ -21,16 +21,13 @@ body {
   display: flex; 
   flex-wrap: wrap; 
   justify-content: space-around; 
-  margin: 15px; 
+  margin: 5px; 
   padding: 5px;
   text-align: center;
-  font-size: 3rem;
 }
 
 /* Styles for the home section */
-.home-section {
-  /* Font size, font family, text alignment, font weight, border, white space, and background properties */
-  font-size: 1.8rem; 
+.home-section { 
   font-family: 'Libre Baskerville', serif;
   text-align: center;
   font-weight: bold;
@@ -51,12 +48,14 @@ body {
 .home-section p {
   color: #000000;
   text-shadow: 2px 2px #f0f0f0;
+  font-size: 5em;
 }
 
 /* Styles for h1 within the home page */
 .home-section h1 {
   color: #000000;
   text-shadow: 2px 4px #f5f5f5; 
+  font-size: 7em;
 }
 }
 

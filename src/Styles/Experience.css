@@ -18,8 +18,6 @@
     border-radius: 1px;
     text-align: center;
     background: rgba(255, 255, 255, 0.5);
-    font-size: 1rem;
-    font-weight: bold;
   }
 
   .youth-container,
@@ -32,25 +30,24 @@
     border-radius: 1px;
     text-align: center;
     background: rgba(255, 255, 255, 0.5);
-    font-size: 1rem;
-    font-weight: bold;
   }
 
   .experience-page h1 {
     color: black;
     text-align: center;
-    font-size: 3rem;
+    font-size: 7em;
   }
 
   .experience-page h2 {
     color: #000000;
-    font-size: 2rem;
+    font-size: 6em;
 
   }
 
   .experience-page p {
     color: #000000;
-    font-size: 1rem;
+    font-size: 4em;
+    font-weight: bold;
   }
 }
 
