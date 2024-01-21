@@ -39,8 +39,8 @@ const HireMePage = () => {
             <div className="pricing-section">
                 <h2>Pricing Structure:</h2>
                 <p>
-                    Single-Page Applications: Starting at $450.00 (Negotiable based on complexity and customization).
-                    Multi-Page Applications: Starting at $650.00.
+                    Single-Page Applications: Starting at $150.00 (Negotiable based on complexity and customization).
+                    Multi-Page Applications: Starting at $350.00.
                 </p>
                 <p>*Note: Prices are subject to adjustment based on project complexity and customization requirements.</p>
             </div>

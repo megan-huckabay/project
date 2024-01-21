@@ -7,9 +7,10 @@ body, h1, h2, h3, p {
 /* Set common font and background image for the body */
 body {
   font-family: Arial, sans-serif; 
-  background-image: url('./images/sunset-beach-background.jpg'); 
-  background-size: cover; 
-  background-position: center;
+  background: linear-gradient(to bottom, #00F0B5, #160C28);
+  /* background-image: url('./images/sunset-beach-background.jpg');  */
+  /* background-size: cover; 
+  background-position: center; */
 }
 
 /* Center the entire application */
@@ -63,7 +64,7 @@ body {
   color: #000000; 
   text-shadow: 8px 4px 15px #ffffff;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 10rem;
+  font-size: 25rem;
   margin: 5px; 
   padding: 5px;
 }
